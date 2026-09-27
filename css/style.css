@@ -1,0 +1,186 @@
+/* Todas as cores que serão usadas no site */
+:root {
+  --vermelho-primenta:#C0392B;
+  --vermelho-escuro:#9E2E22;
+  --verde-moldura: #2E8B57;
+  --verde-escuro:#1F6B45;
+  --dourado-aureola:#FFC300;
+  --amarelo-tordilha:#FFD166;
+  --laranja-tordilha:#F4A824;
+  --raio-dourado:#FFD98A;
+  --creme:#FFF4D6;
+  --fundo-da-pagina:#FFFBF1;
+  --branco:#FFFFFF;
+  --marrom-contorno: #7A3E12;
+  --marrom-texto: #3B1F0E;
+  --verde-alface: #6BBF3A;
+  --vermelho-tomate:#E63946;
+  --rosa-bochecha:#FF7B9C;
+}
+
+.item-menu{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--creme);
+}
+
+.menu {
+    background-color: var(--verde-moldura);
+    padding: 5px;
+    border-style: solid;
+    border-top-color: var(--marrom-contorno) ;
+    box-shadow: 5px 5px var(--marrom-contorno);
+    border-radius:10px;
+}
+
+#imagem-banner {
+    height: 64px;
+    padding:20px;
+    cursor:pointer;
+ }
+
+
+
+.content-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; 
+  background-color: #fff8ef;
+  
+}
+
+.btn {
+    border:1px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px var(--marrom-contorno);
+    margin-right: 40px;
+    width: 125px;
+    text-align: center;
+}
+
+.btn-principal {
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+}
+
+
+.titulos {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--fundo-da-pagina);
+    margin-right: 20px;   
+ }
+
+header {
+    height: 120px;
+}
+
+footer {
+    background-color: var(--marrom-texto);
+    height: 220px;
+    border-radius: 20px;
+    border: 3px solid var(--marrom-contorno);
+    box-shadow: 5px 5px var(--marrom-contorno);
+}
+
+.copy-rodape {
+    margin: 0 auto;
+    height: 80%;
+    width: 90%;
+    border-top: 3px solid var(--marrom-contorno);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:14px;
+    text-align:center;
+    color:var(--creme);
+    display: flex;
+}
+
+#selo-rodape img{
+    margin-left: 35px;
+    margin-top: 20px;
+    height: 80px ;
+}
+
+#selo-rodape p {
+    color: var(--creme);
+    margin-left: 40px;
+    margin-bottom: 30px;
+    /* display: flex;
+    position:fixed;
+    top:275px; */
+}
+
+#selo-rodape {
+    display:grid;
+    margin-right: 10px;
+}
+
+.content-rodape {
+    display: flex;
+}
+
+
+.menu a:hover {
+    background-color: var(--verde-moldura);
+    height: 180px;
+    border-radius: 20px;
+    color:var(--verde-escuro)
+    
+}
+
+.menu a[aria-current="page"] {
+    background-color: var(--dourado-aureola);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border:3px solid var(--amarelo-tordilha);
+    color:var(--verde-escuro)
+}
+
+.rodape-site strong , .rodape-atendimento strong, .rodape-contato strong {
+    color:var(--dourado-aureola);
+    margin-bottom:10px;
+}
+
+.rodape-site , .rodape-atendimento , .rodape-contato {
+    list-style: none;
+    display:inline-table;
+    margin: 0 auto;
+    margin-top:20px;  
+} 
+
+.rodape-site li , .rodape-atendimento li , .rodape-contato li {
+    margin-top:3px;
+}
+
+.rodape-site a , .rodape-atendimento a , .rodape-contato i  {
+    color:var(--creme);
+    text-decoration: none;
+    font-size: small;
+}
+
+header::before {
+  content: "";
+  display: block;
+  height: 7px;
+  border-top: 2px solid #7a4a1e;
+  border-bottom: 3px solid var(--marrom-contorno);
+  background: linear-gradient(
+    to right,
+    #2e7d4f 0 33.33%,
+    #fdf6e9 33.33% 66.66%,
+    #c0392b 66.66% 100%
+  );
+}
+
+
