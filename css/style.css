@@ -81,6 +81,12 @@ body {
     background-color: var(--fundo-da-pagina);
     margin-right: 20px;   
  }
+ #banner-orcamento {
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
+ }
 
 header {
     height: 120px;
