@@ -55,6 +55,23 @@
   
 }
 
+.lista-cardapio {
+    
+    display: flex;
+    background-color: #faf9f9;
+    padding:100px;
+    width: 50%;
+    justify-content:space-between;
+}
+
+.lista-cardapio h4  {
+    border-bottom: 2px solid var(--marrom-contorno);
+    padding-bottom: 4px;
+    width: 300px;
+    text-align: left;
+    color: var(--vermelho-primenta);
+}
+
 .btn {
     border:1px solid var(--marrom-contorno);
     border-radius: 20px;
@@ -152,6 +169,39 @@ footer {
     margin-bottom:10px;
 }
 
+#banner-carpadio {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom-color: var(--marrom-contorno);
+    margin-top:4px;
+}
+
+#menu-cardapio {
+    display: flex;
+    /* justify-content:space-around; */
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container-menu-cardapio {
+    margin-top: 20px;
+}
+ 
+.btn-menu {
+    border: 2px solid var(--marrom-contorno);
+    height: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: var(--marrom-texto);
+    margin-left: 40px;
+}
+
+
 .rodape-site , .rodape-atendimento , .rodape-contato {
     list-style: none;
     display:inline-table;
@@ -168,6 +218,7 @@ footer {
     text-decoration: none;
     font-size: small;
 }
+
 
 header::before {
   content: "";
