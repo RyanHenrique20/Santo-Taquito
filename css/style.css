@@ -70,6 +70,10 @@
     background-color: var(--vermelho-primenta);
     color: var(--branco);
 }
+.btn-unidades {
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+}
 
 
 .titulos {
@@ -96,11 +100,19 @@ header {
     border-style: solid;
     border-color: var(--marrom-contorno);
 }
-#content-unidades {
+.content-unidades {
     padding: 60px;
-}
-#content-unidades h4, #content-unidades h2 {
     display: flex;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.content-unidades h4, .content-unidades h2 {
+    display: flex;
+}
+.background-unidades {
+    background-color: var(--creme);
+    border-radius: 20px;
+    height: 600px;
 }
 
 footer {
