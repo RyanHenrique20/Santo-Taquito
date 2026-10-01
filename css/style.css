@@ -91,6 +91,14 @@ body {
 header {
     height: 120px;
 }
+.content-orcamento {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.background-orcamento {
+    background-color: var(--creme);
+}
 
 footer {
     background-color: var(--marrom-texto);
