@@ -96,9 +96,6 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.background-orcamento {
-    background-color: var(--fundo-da-pagina);
-}
 
 footer {
     background-color: var(--marrom-texto);
