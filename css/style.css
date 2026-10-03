@@ -70,6 +70,10 @@
     background-color: var(--vermelho-primenta);
     color: var(--branco);
 }
+.btn-unidades {
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+}
 
 
 .titulos {
@@ -77,7 +81,7 @@
 }
 
 body {
-    margin: 0;
+    /* margin: 0; */
     background-color: var(--fundo-da-pagina);
     margin-right: 20px;   
  }
@@ -85,7 +89,27 @@ body {
 header {
     height: 120px;
 }
-    
+#banner-unidades {
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
+}
+.imagem-unidade {
+    border-radius: 60px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
+}
+.content-unidades {
+    padding: 60px;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.content-unidades h4, .content-unidades h2 {
+    display: flex;
+}
+
 footer {
     background-color: var(--marrom-texto);
     height: 220px;
