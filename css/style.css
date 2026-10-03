@@ -55,6 +55,34 @@
   
 }
 
+.lista-cardapio {
+    display: flex;
+    background-color: #faf9f9;
+    padding:100px;
+    width: 50%;
+    justify-content:space-between;
+}
+
+.lista-cardapio h2  {
+    border-bottom: 2px solid var(--marrom-contorno);
+    padding-bottom: 4px;
+    width: 300px;
+    text-align: start;
+    color: var(--vermelho-primenta);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .btn {
     border:1px solid var(--marrom-contorno);
     border-radius: 20px;
@@ -202,6 +230,39 @@ footer {
     margin-bottom:10px;
 }
 
+#banner-carpadio {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom-color: var(--marrom-contorno);
+    margin-top:4px;
+}
+
+#menu-cardapio {
+    display: flex;
+    /* justify-content:space-around; */
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container-menu-cardapio {
+    margin-top: 20px;
+}
+ 
+.btn-menu {
+    border: 2px solid var(--marrom-contorno);
+    height: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: var(--marrom-texto);
+    margin-left: 40px;
+}
+
+
 .rodape-site , .rodape-atendimento , .rodape-contato {
     list-style: none;
     display:inline-table;
@@ -219,6 +280,7 @@ footer {
     font-size: small;
 }
 
+
 header::before {
   content: "";
   display: block;
@@ -233,6 +295,24 @@ header::before {
   );
 }
 
+.lista-cardapio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:56px;
+    width: 85%;
+    border-radius: 30px;
+    margin: 0 auto;
+    background: var(--fundo-da-pagina);
+}
 
 
+.itens {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.item {
+    padding: 14px;
+    border-bottom: 2px dashed #e6d3a3;
+}
