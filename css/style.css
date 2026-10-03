@@ -177,7 +177,8 @@ footer {
 
 }
 
-.content-contato h2 {
+
+.content-contato h1 , .duas_colunas h1 {
     color: var(--vermelho-primenta);
 }
 
