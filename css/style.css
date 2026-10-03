@@ -99,6 +99,7 @@ header {
     border-radius: 60px;
     border-style: solid;
     border-color: var(--marrom-contorno);
+    width: 70%;
 }
 .content-unidades {
     padding: 60px;
