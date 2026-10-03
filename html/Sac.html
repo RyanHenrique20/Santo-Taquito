@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Santo Taquito - Restaurante</title>
+        <!-- Link que carrega o CSS  -->
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <!-- Cabeçalho -->
+        <header>
+            <div class="content-group">
+                <img id="imagem-banner" src="../img/logo-cabecalho.webp" alt="Logotipo da Santo Taquito, comida mexicana, com taco sorridente de bigode, asas e auréola" 
+                onclick="window.location.assign('index.html')">
+                <a href="" class="btn btn-principal titulos">Reservar mesa</a>
+            </div>
+        </header>
+
+
+        <!-- Menu  -->
+        <div class="menu">
+            <nav>
+                <ul class="item-menu titulos">
+                    <li><a class="menu-link" href="../index.html">INÍCIO</a></li>
+                    <li><a class="menu-link" href="cardapio.html">CARDÁPIO</a></li>
+                    <li><a class="menu-link" href="open-drinks.html">OPEN DRINKS</a></li>
+                    <li><a class="menu-link" href="unidades.html">UNIDADES</a></li>
+                    <li><a class="menu-link" href="promocoes.html">PROMOÇÕES</a></li>
+                    <li><a class="menu-link" href="reservas.html">RESERVAS</a></li>
+                    <li><a class="menu-link" href="sac.html" aria-current="page">SAC</a></li>
+                    <li><a class="menu-link" href="trabalhe-conosco.html">TRABALHE CONOSCO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Imagem banner sac -->
+        <div>
+            <img id="banner-sac" src="../img/banner-sac-com-texto.png" alt="banner do santo taquito SAC" >
+        </div>
+
+        <main class="engloba-conteudo">
+
+            <section class="duas_colunas">
+                <h1>Perguntas Frequentes</h1>
+                <details>
+                    <summary>Posso fazer pedidos pelo site?</summary>
+                    <p>Não. O site é so para reservas de Mesas, os pedidos são feitos pelo salaõ.</p>
+                </details>
+                <details>
+                    <summary>Quanto tempo de tolerancia na reserva?</summary>
+                    <p>A reserva é mantida por 15 minutos apos o horario marcado</p>
+                </details>
+                <details>
+                    <summary>O open drinks inclui bebidas sem alcool? </summary>
+                    <p>Sim temos opções não alcolicas inclusas</p>
+                </details>
+                <details>
+                    <summary>tem opção vegetariana?</summary>
+                    <p>Sim, temos pratos vegetarianos no cardapio</p>
+                </details>
+                <details>
+                    <summary>Aceitam animais de estimação?</summary>
+                    <p>Sim, somos Pet friendly em todas as unidades </p>
+                </details>
+
+                <aside class="outros-canais">
+                    <h2>Outro canais</h2>
+                    <p>sac@santotaquito.com.br - (11) 0000-0000</p>
+                </aside>
+            </section>
+
+
+
+            <section class="content-contato">
+                <h1>Fale com a gente</h1>
+
+                <form action="#" method="post"  class="form-contato">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="Nome" placeholder="voce@email.com" required>
+
+                    <label for="unidade">Unidade</label>
+                    <select id="unidade" name="unidade">
+                        <option value="tatuape">Tatuapé</option>
+                        <option value="palista">Palista</option>
+                        <option value="Pinheiros">Pinheiros</option>
+                    </select>
+
+                    <fieldset>
+                        <legend>Assunto</legend>
+                        <input type="radio" id="assunto-duvida" name="assunto" value="duvida" checked>
+                        <label for="assunto-duvida">Dúvida</label>
+
+                        <input type="radio" id="assunto-reclamacao" name="assunto" value="reclamacao">
+                        <label for="assunto-reclamacao">Reclamação</label>
+
+                        <input type="radio" id="assunto-elogio" name="assunto" value="elogio">
+                        <label for="assunto-elogio">Elogio</label>
+
+                        <input type="radio" id="assunto-sugestao" name="assunto" value="sugestao">
+                        <label for="assunto-sugestao">Sugestão</label>
+                    </fieldset>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Conte o que aconteceu..." rows="5" required></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Rodapé  -->
+        <footer>
+            <div class="content-rodape">
+                <div id="selo-rodape">
+                    <img src="../img/logo-emblema.webp" alt="">
+                    <p><i>Comida mexicana abençoada<br>desde 2026.</i></p>
+                    
+                </div>
+        
+                <ul class="rodape-site">
+                    <li><strong>SITE</strong></li>
+                    <li><a href="html/cardapio.html"><i>Cardápio</i></a></li>
+                    <li><a href="open-drinks.html"><i>Open Drinks</i></a></li>
+                    <li><a href="promocoes.html"><i>Promoções</i></a></li>
+                    <li><a href="reservas.html"><i>Reservas</i></a></li>
+                </ul>
+                <ul class="rodape-atendimento">
+                    <li><strong>ATENDIMENTO</strong></li>
+                    <li><a href="sac.html"><i>SAC</i></a></li>
+                    <li><a href="unidades.html"><i>Unidades</i></a></li>
+                    <li><a href="trabalhe-conosco.html"><i>Trabalhe Conosco</i></a></li>
+                    <li><a href="orcamento.html"><i>Orçamentos</i></a></li>
+                    <li><a href="contato.html"><i>Contato</i></a></li>
+                </ul>
+                <ul class="rodape-contato">
+                    <li><strong>CONTATO</strong></li>
+                    <li><i>contato@santotaquito.com.br</i></li>
+                    <li><i>(11) 0000-0000</i></li>
+                    <li><i>Ter a dom - 12h ás 23h</i></li>
+                </ul>
+            </div>
+            <div class="copy-rodape">
+                <p>
+                    <i>&copy; 2026 Santo Taquito · Restaurante fictício · Projeto acadêmico de Front-End (ADS – UNICID)</i> 
+                </p>
+            </div>
+    </footer>
+
+    </body>
+</html>

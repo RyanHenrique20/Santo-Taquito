@@ -200,6 +200,15 @@ footer {
     display: flex;
 }
 
+#banner-sac {
+    height: 100%;
+    width: 100%;
+    margin-top:5px;
+    border-radius: 10px;
+    border: 3px solid var(--marrom-contorno);
+    /* box-shadow: 5px 5px var(--marrom-contorno); */
+}
+
 #selo-rodape img{
     margin-left: 35px;
     margin-top: 20px;
@@ -286,6 +295,24 @@ footer {
     margin-top:20px;  
 } 
 
+.content-contato {
+    border: 3px solid var(--marrom-contorno);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+
+}
+
+
+.content-contato h1 , .duas_colunas h1 {
+    color: var(--vermelho-primenta);
+}
+
+.form-contato {
+    display: grid;
+}
+
 .rodape-site li , .rodape-atendimento li , .rodape-contato li {
     margin-top:3px;
 }
@@ -319,6 +346,22 @@ header::before {
     border-radius: 30px;
     margin: 0 auto;
     background: var(--fundo-da-pagina);
+}
+
+.engloba-conteudo {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.duas_colunas details , .outros-canais {
+    border: 2px solid var(--marrom-contorno);
+    border-radius:10px;
+    padding:25px;
+}
+
+.duas_colunas summary {
+    border: 2px solid var(--marrom-contorno);
+
 }
 
 
