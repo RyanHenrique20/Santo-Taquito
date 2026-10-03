@@ -91,6 +91,12 @@ body {
     border-style: solid;
     border-color: var(--marrom-contorno);
  }
+ #banner-contato {
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
+ }
 
 header {
     height: 120px;
