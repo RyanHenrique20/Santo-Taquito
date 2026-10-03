@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santo Taquito - Restaurante</title>
+    <!-- Link que carrega o CSS  -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="content-group">
+            <img id="imagem-banner" src="../img/logo-cabecalho.webp" alt="" onclick="window.location.assign('../index.html')">
+            <a href="" class="btn btn-principal titulos">Reservar mesa</a>   
+        </div>
+    </header>
+
+
+    <!-- Menu  -->
+    <div class="menu">
+        <nav>
+            <ul class="item-menu titulos">
+                <li><a class="menu-link" href="../index.html" >INÍCIO</a></li>
+                <li><a class="menu-link" href="cardapio.html">CARDÁPIO</a></li>
+                <li><a class="menu-link" href="">OPEN DRINKS</a></li>
+                <li><a class="menu-link" href="">UNIDADES</a></li>
+                <li><a class="menu-link" href="">PROMOÇÕES</a></li>
+                <li><a class="menu-link" href="">RESERVAS</a></li>
+                <li><a class="menu-link" href="">SAC</a></li>
+                <li><a class="menu-link" href="../html/trabalhe-conosco.html" aria-current="page">TRABALHE CONOSCO</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div>
+        <img src="../img/banner-trabalhe-conosco-com-texto.png" alt="Banner com fundo de raios amarelos e creme.À esquerda,o texto'Faça parte da equipe' com o titulo em verde,'trabalhe conosco'em vermelho,com um covite para  enviar o curriculo para rh@santotaquito.com.br ou preencher o formulario" width="2000" >
+    </div>
+
+    <section>
+        <div>
+            <h1>Vagas Abertas</h1>
+<!--Card 1: Garçom / Garçonete-->
+            <div>
+                <div>
+                    <h2>Garçom / Garçonete</h2>
+                    <p>Tatuape e Paulista </p>
+                    <p>Vaga Aberta</p>
+                </div>
+            </div>
+    <!--Card 2: Cozinheiro(a)-->
+            <div>
+                <div>
+                    <h3>Cozinheiro(a)</h3>
+                    <p>Pinheiros</p>
+                    <p>Vaga Aberta</p>    
+                </div>
+            </div>
+    <!--Card 3: Bartener-->
+            </div>
+                <div>
+                    <h3>Bartender</h3>
+                    <p>Todas as unidades</p>
+                    <p>Vaga Aberta</p>
+                </div>
+    <!--Card Especial: E-mail do RH-->
+            <div>
+                <div>
+                    <h3>E-mail do RH</h3>
+                    <p>rh@santotaquito.com.br</p>
+                    <p>(e-mail ficticio)</p>
+                </div>
+            </div>
+    <!--Formulario de candidatura-->
+            <div>
+                <h2>Envie sua candidatura</h2>
+                <form>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required><br>
+                    <br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <br>
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone" required><br>
+                    <br>
+                    <label for="vaga">Vaga de interesse:</label><br>
+                    <select id="vaga" name="vaga" required>
+                        <option value="">Selecione uma vaga</option>
+                        <option value="garcom">Garçom / Garçonete</option>
+                        <option value="cozinheiro">Cozinheiro(a)</option>
+                        <option value="bartender">Bartender</option>
+                    </select><br>
+                    <br>
+                    <label for="curriculo">Currículo (PDF):</label><br>
+                    <input type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
+                    <br>
+                    <input type="submit" value="Enviar Candidatura">   
+                </form>
+            </div>     
+        </section>
+       
+<!-- Rodapé  -->
+    <footer>
+        <div class="content-rodape">
+            <div id="selo-rodape">
+                <img src="../img/logo-emblema.webp" alt="">
+                <p><i>Comida mexicana abençoada<br>desde 2026.</i></p>
+                
+            </div>
+       
+            <ul class="rodape-site">
+                <li><strong>SITE</strong></li>
+                <li><a href="cardapio.html"><i>Cardápio</i></a></li>
+                <li><a href="open-drink.html"><i>Open Drinks</i></a></li>
+                <li><a href="promocoes.html"><i>Promoções</i></a></li>
+                <li><a href="reservas.html"><i>Reservas</i></a></li>
+            </ul>
+            <ul class="rodape-atendimento">
+                <li><strong>ATENDIMENTO</strong></li>
+                <li><a href="sac"><i>SAC</i></a></li>
+                <li><a href="unidades"><i>Unidades</i></a></li>
+                <li><a href="trabalhe-conosco"><i>Trabalhe Conosco</i></a></li>
+            </ul>
+            <ul class="rodape-contato">
+                <li><strong>CONTATO</strong></li>
+                <li><i>contato@santotaquito.com.br</i></li>
+                <li><i>(11) 0000-0000</i></li>
+                <li><i>Ter a dom - 12h ás 23h</i></li>
+            </ul>
+        </div>
+        <div class="copy-rodape">
+           <p>
+                <i>&copy; 2026 Santo Taquito · Restaurante fictício · Projeto acadêmico de Front-End (ADS – UNICID)</i> 
+           </p>
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
