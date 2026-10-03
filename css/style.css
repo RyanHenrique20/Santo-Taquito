@@ -85,6 +85,12 @@ body {
     background-color: var(--fundo-da-pagina);
     margin-right: 20px;   
  }
+ #banner-orcamento {
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
+ }
 
 header {
     height: 120px;
@@ -108,6 +114,20 @@ header {
 }
 .content-unidades h4, .content-unidades h2 {
     display: flex;
+}
+
+.content-orcamento {
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-orcamento {
+    border: solid 3px var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+    background-color: var(--creme);
+    width: 20%;
+    padding: 20px;
 }
 
 footer {
