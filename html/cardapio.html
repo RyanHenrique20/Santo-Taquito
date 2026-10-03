@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santo Taquito - Restaurante</title>
+    <!-- Link que carrega o CSS  -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+     
+    <header>
+        <div class="content-group">
+            <img id="imagem-banner" src="../img/logo-cabecalho.webp" alt="" onclick="window.location.assign('../index.html')">
+            <a href="" class="btn btn-principal titulos">Reservar mesa</a>   
+        </div>
+    </header>
+
+
+    <!-- Menu  -->
+    <div class="menu">
+        <nav>
+            <ul class="item-menu titulos">
+                <li><a class="menu-link" href="../index.html" >INÍCIO</a></li>
+                <li><a class="menu-link" href="cardapio.html" aria-current="page">CARDÁPIO</a></li>
+                <li><a class="menu-link" href="">OPEN DRINKS</a></li>
+                <li><a class="menu-link" href="">UNIDADES</a></li>
+                <li><a class="menu-link" href="">PROMOÇÕES</a></li>
+                <li><a class="menu-link" href="">RESERVAS</a></li>
+                <li><a class="menu-link" href="">SAC</a></li>
+                <li><a class="menu-link" href="">TRABALHE CONOSCO</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Imagem banner cardápio -->
+    <div>
+        <h1 class="visually-hidden">Comidas e Bebidas - Cardápio</h1>
+        <img id="banner-carpadio" src="../img/banner-cardapio-com-texto.png" alt="Banner do cardápio com o título 'Comidas e Bebidas – Cardápio' e o texto 'Tudo o que sai da nossa cozinha e do nosso bar. Os pratos são servidos só no salão.' À direita, um mascote sorridente em forma de tigela de comida, com chapéu de cozinheiro, asas de anjo, auréola e uma colher de pau, piscando o olho e fazendo sinal de positivo. O fundo tem raios amarelos e creme.">
+   </div>
+
+   <div class="container-menu-cardapio">
+        <ul id="menu-cardapio">
+            <li><a class="btn-menu" href="cardapio.html?menu=todos">Todos</a></li>
+            <li><a class="btn-menu" href="cardapio.html?menu=entradas">Entradas</a></li>
+            <li><a class="btn-menu" href="cardapio.html?menu=tacos">Tacos</a></li>
+            <li><a class="btn-menu" href="cardapio.html?menu=burritos">Burritos</a></li>
+            <li><a class="btn-menu" href="cardapio.html?menu=sobremesas">Sobremesas</a></li>
+            <li><a class="btn-menu" href="cardapio.html?menu=bebidas">Bebidas</a></li>
+        </ul>
+   </div>
+
+    <section class="lista-cardapio">
+        <div class="container-cardapio">
+            <div class="grupo">
+                <h2>Entradas</h2>
+                <ul class="itens">
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Nachos Santos</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 32,90</span>
+                        </div>
+                        <p class="descricao-item">Tortilla chips, queijo derretido, jalapeño e pico de gallo</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Guacamole da Casa</span>
+                            <span class="tag tag-verde">Vegetariano</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 28,90</span>
+                        </div>
+                        <p class="descricao-item">Abacate, limão, coentro e cebola roxa, com totopos</p>
+                    </li>
+                </ul>
+            </div>
+ 
+            <div class="grupo">
+                <h2>Tacos (3 unidades)</h2>
+                <ul class="itens">
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Taco al Pastor</span>
+                            <span class="tag tag-amarela">Santo do dia</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 29,90</span>
+                        </div>
+                        <p class="descricao-item">Porco marinado no achiote, abacaxi grelhado e coentro</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Taco de Carnitas</span>
+                            <span class="pimentas"><i class="pimenta"></i><i class="pimenta"></i></span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 31,90</span>
+                        </div>
+                        <p class="descricao-item">Porco desfiado, cebola e molho verde</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+ 
+        <div class="container-cardapio">
+            <div class="grupo">
+                <h2>Burritos e sobremesas</h2>
+                <ul class="itens">
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Burrito do Padre</span>
+                            <span class="pimentas"><i class="pimenta"></i></span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 34,90</span>
+                        </div>
+                        <p class="descricao-item">Carne, feijão, arroz, queijo e guacamole</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Churros Benditos</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 18,00</span>
+                        </div>
+                        <p class="descricao-item">Com doce de leite e canela, porção com 6</p>
+                    </li>
+                </ul>
+            </div>
+ 
+            <div class="grupo">
+                <h2>Bebidas</h2>
+ 
+                <h3 class="subtitulo-bebida">Com álcool</h3>
+                <ul class="itens">
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Paloma</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 00,00</span>
+                        </div>
+                        <p class="descricao-item">Tequila, grapefruit, limão e água com gás, finalizada com uma pitada de sal. Leve, cítrica e muito refrescante.</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Tequila Sunrise</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 00,00</span>
+                        </div>
+                        <p class="descricao-item">Tequila, suco de laranja e grenadine, criando um drink colorido e suavemente adocicado.</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Michelada</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 00,00</span>
+                        </div>
+                        <p class="descricao-item">Cerveja mexicana, suco de limão, molho inglês e temperos, servida bem gelada com borda temperada. Refrescante e cheia de personalidade.</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Mojito</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 00,00</span>
+                        </div>
+                        <p class="descricao-item">Rum, limão fresco, hortelã, açúcar mascavo e água com gás, servidos com bastante gelo. Refrescante, cítrico e aromático, com o equilíbrio perfeito entre o doce e a acidez.</p>
+                    </li>
+                </ul>
+ 
+                <h3 class="subtitulo-bebida">Sem álcool</h3>
+                <ul class="itens">
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Jamaica Fresh</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 00,00</span>
+                        </div>
+                        <p class="descricao-item">Água de Jamaica, limão fresco, xarope de açúcar e gelo. Refrescante, levemente ácida e com um sabor marcante de hibisco.</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Água de Cantalupo</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 00,00</span>
+                        </div>
+                        <p class="descricao-item">Melão cantalupo batido com água e açúcar, servido com gelo. Suave, frutado e naturalmente adocicado.</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Horchata</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 12,00</span>
+                        </div>
+                        <p class="descricao-item">Bebida de arroz com canela, sem álcool</p>
+                    </li>
+                    <li class="item">
+                        <div class="item-linha">
+                            <span class="item-nome">Refrigerante lata</span>
+                            <span class="pontilhado"></span>
+                            <span class="item-preco">R$ 7,00</span>
+                        </div>
+                        <p class="descricao-item">Cola, guaraná ou limão</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé  -->
+    <footer>
+        <div class="content-rodape">
+            <div id="selo-rodape">
+                <img src="../img/logo-emblema.webp" alt="">
+                <p><i>Comida mexicana abençoada<br>desde 2026.</i></p>
+                
+            </div>
+       
+            <ul class="rodape-site">
+                <li><strong>SITE</strong></li>
+                <li><a href="html/cardapio.html"><i>Cardápio</i></a></li>
+                <li><a href=""><i>Open Drinks</i></a></li>
+                <li><a href=""><i>Promoções</i></a></li>
+                <li><a href=""><i>Reservas</i></a></li>
+            </ul>
+            <ul class="rodape-atendimento">
+                <li><strong>ATENDIMENTO</strong></li>
+                <li><a href=""><i>SAC</i></a></li>
+                <li><a href=""><i>Unidades</i></a></li>
+                <li><a href=""><i>Trabalhe Conosco</i></a></li>
+            </ul>
+            <ul class="rodape-contato">
+                <li><strong>CONTATO</strong></li>
+                <li><i>contato@santotaquito.com.br</i></li>
+                <li><i>(11) 0000-0000</i></li>
+                <li><i>Ter a dom - 12h ás 23h</i></li>
+            </ul>
+        </div>
+        <div class="copy-rodape">
+           <p>
+                <i>&copy; 2026 Santo Taquito · Restaurante fictício · Projeto acadêmico de Front-End (ADS – UNICID)</i> 
+           </p>
+        </div>
+    </footer>
+    
+    <script src="../js/app.js"></script>
+</body>
+</html>
