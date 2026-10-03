@@ -94,6 +94,7 @@ header {
     margin-top: 5px;
     border-style: solid;
     border-color: var(--marrom-contorno);
+    width: 100%;
 }
 .imagem-unidade {
     border-radius: 60px;
