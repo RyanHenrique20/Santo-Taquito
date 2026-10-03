@@ -295,7 +295,7 @@ footer {
     margin-top:20px;  
 } 
 
-.content-contato {
+.content-sac {
     border: 3px solid var(--marrom-contorno);
     padding: 20px;
     border-radius: 20px;
@@ -305,11 +305,11 @@ footer {
 }
 
 
-.content-contato h1 , .duas_colunas h1 {
+.content-sac h1 , .duas_colunas h1 {
     color: var(--vermelho-primenta);
 }
 
-.form-contato {
+.form-sac {
     display: grid;
 }
 
