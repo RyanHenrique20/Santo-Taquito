@@ -34,10 +34,134 @@
         </nav>
     </section>
     <section>
-        <img id="banner-contato" src="../img/banner-contato-com-texto.webp" alt="" width="100%" height="100%" >
+        <img id="banner-contato" src="../img/banner-contato-com-texto.webp" alt="Banner com fundo de raios em tons de amarelo claro. À esquerda, o texto diz: FALE COM A GENTE, seguido do título Contato e do parágrafo Endereço, telefone, e-mail e formulário de contato. Conheça também a equipe por trás do Santo Taquito. " width="100%" height="100%" >
     </section>
     <section>
-        
+        <h1 align="center">INFORMAÇÕES DE IMPORTANTES PARA CONTATO</h1>
+        <div class="content-contato">
+            <div class="card-contato">
+                <h2>Contatos</h2>
+                <h3>Restaurante Santo Taquito</h3>
+                <p>CNPJ: 90.358.679/0001-26</p>
+                <p>Endereço: Rua Fictícia, 123 - Unidade: Tatuapé</p>
+                <p>Telefone: (11) 7647-9306</p>
+                <p>Endereço: Av. Imaginária, 456 - Unidade: Paulista</p>
+                <p>Telefone: (11) 8895-2111</p>
+                <p>Endereço: Rua dos Anjos, 789 - Unidade: Pinheiros</p>
+                <p>Telefone: (11) 1054-3140</p>
+                <h3>E-mail</h3>
+                <p>contato@santotaquito.com.br</p>
+                <p>rh@santotaquito.com.br</p>
+                <p>reservas@santotaquito.com.br</p>
+                <p>sac@santotaquito.com.br</p>
+            </div>
+            <div class="card-contato">
+                <h2>SOLICITE SEU ORÇAMENTO</h2>
+                <P><strong>Preencha o formulário abaixo e nossa equipe entrará em contato com você!</strong></P>
+                <form action="/enviar" autocomplete="off" method="post">
+                    <label for="cname">Nome Completo*</label><br>
+                    <input type="text" id="cname" name="cname" placeholder="Digite seu nome completo" required><br>
+                    <label for="cemail">E-mail*</label><br>
+                    <input type="email" id="cemail" name="cemail" placeholder="Digite seu e-mail" required><br>
+                    <label for="ctel">Telefone/ WhatsApp*</label><br>
+                    <input type="tel" id="ctel" name="ctel" placeholder="Digite seu telefone/WhatsApp" required><br>
+                    <label for="cemp">Empresa/ Negocio</label><br>
+                    <input type="text" id="cemp" name="cemp" placeholder="Digite o nome da sua empresa ou negócio" ><br>
+                    <br>
+                    <label for="ctipo">Tipo de site</label><br>
+                    <input type="checkbox" id="cloja" name="cloja" value="loja-virtual">
+                    <label for="cloja">Loja Virtual/ e-Commerce</label>
+                    <input type="checkbox" id="csite" name="csite" value="site-institucional">
+                    <label for="csite">Site Institucional</label><br>
+                    <input type="checkbox" id="cblog" name="cblog" value="blog">
+                    <label for="cblog">Blog</label>
+                    <input type="checkbox" id="cport" name="cport" value="portfolio">
+                    <label for="cport">Portfólio</label>
+                    <input type="checkbox" id="cpage" name="cpage" value="Landing-Page">
+                    <label for="cpage">Landing Page</label><br>
+                    <input type="checkbox" id="cardapio" name="cardapio" value="cardapio-digital">
+                    <label for="cardapio">Cardápio Digital</label>
+                    <input type="checkbox" id="csite" name="csite" value="site-para-eventos">
+                    <label for="csite">Site para Eventos</label>
+                    <input type="checkbox" id="coutros" name="coutros" value="outros">
+                    <label for="coutros">Outros</label><br>
+                    <br>
+                    <label for="cpagina">Quantidade de Páginas*</label><br>
+                    <input type="number" id="cpagina" name="cpagina" placeholder="Digite a quantidade de páginas do site" required><br>
+                    <label for="corc">Orçamento estimado*</label><br>
+                    <input type="number" id="corc" name="corc" placeholder="Digite o orçamento estimado" required><br>
+                    <label for="cprazo">Prazo desejado</label><br>
+                    <input type="date" id="cprazo" name="cprazo" placeholder="Digite o prazo desejado"><br>
+                    <br>
+                    <label for="cfuncao">Funcionalidades desejadas</label><br>
+                    <input type="checkbox" id="froms" name="forms" value="formulario-contato">
+                    <label for="froms">Formulário de Contato</label>
+                    <input type="checkbox" id="clogin" name="clogin" value="Area-de-login">
+                    <label for="clogin">Área de Login</label><br>
+                    <input type="checkbox" id="cwpp" name="cwpp" value="integracao-whatsapp">
+                    <label for="cwpp">Integração com WhatsApp</label>
+                    <input type="checkbox" id="cpag" name="cpag" value="pagamento-online">
+                    <label for="cpagseg">Pagamento Online</label><br>
+                    <input type="checkbox" id="cchat" name="cchat" value="chat-online">
+                    <label for="cchat">Chat Online</label>
+                    <input type="checkbox" id="cagenda" name="cagenda" value="agendamento-online">
+                    <label for="cagenda">Agendamento Online</label>
+                    <input type="checkbox" id="outros" name="outros" value="outros">
+                    <label for="outros">Outros</label><br>
+                    <br>
+                    <label for="cmsg">Descreva seu projeto*</label><br>
+                    <br>
+                    <textarea id="cmsg" name="cmsg" placeholder="Digite aqui uma descrição do seu projeto" rows="10" cols="50" required></textarea><br>
+                    <input class="btn" type="submit" value="Enviar">
+                    <P><strong>Campos marcados com * são obrigatórios.</strong></P>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <table border="1" align="center" height="30%" width="30%">
+                <tr>
+                    <th>NOME</th>
+                    <th>RGM</th>
+                </tr>
+                <tr>
+                    <td>Bernardo Farias de Jesus</td>
+                    <td>49213644</td>
+                </tr>
+                <tr>
+                    <td>Bruno Ferreira Gonçalves</td>
+                    <td>49468782</td>
+                </tr>
+                <tr>
+                    <td>Gabriely Moreira Manna</td>
+                    <td>49574876</td>
+                </tr>
+                <tr>
+                    <td>Henry Gonçalves dos Santos</td>
+                    <td>48812722</td>
+                </tr>
+                <tr>
+                    <td>João Wyctor França dos Santos</td>
+                    <td>49475606</td>
+                </tr>
+                <tr>
+                    <td>Murilo Alves de Sousa</td>
+                    <td>49323555</td>
+                </tr>
+                <tr>
+                    <td>Rafela Teresa de Oliveira</td>
+                    <td>49217844</td>
+                </tr>
+                <tr>
+                    <td>Ryan Henrique de Aguiar dos Santos</td>
+                    <td>48821322</td>
+                </tr>
+                <tr>
+                    <td>Victor Rodrigues da Costa</td>
+                    <td>49132237</td>
+                </tr>
+            </table>
+        </div>
     </section>
     
 

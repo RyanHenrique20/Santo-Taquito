@@ -109,6 +109,19 @@ header {
     width: 20%;
     padding: 20px;
 }
+.content-contato {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-contato {
+    border: solid 3px var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+    background-color: var(--creme);
+    width: 40%;
+    padding: 20px;
+}
 
 footer {
     background-color: var(--marrom-texto);
