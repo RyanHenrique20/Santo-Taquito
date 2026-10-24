@@ -184,3 +184,16 @@ header::before {
 }
 
 
+.lista-unidades{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.unidade img{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+
