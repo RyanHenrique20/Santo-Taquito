@@ -225,4 +225,47 @@ header::before {
     border: 2px solid var(--marrom-contorno);
 
 }
+.engloba-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+}
 
+.duas_colunas,
+.content-sac{
+    background-color: #FFFFFF;
+    border: 2px solid #7A3E12;
+    border-radius: 16px;
+    padding: 24px;
+
+}
+
+details{
+    border: 1px solid #7A3E12;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+
+}
+
+summary{
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+.form-sac label{
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+
+}
+.form-sac input [ type="text],
+.form-sac select,
+.form-sac texturea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #7A3E12;
+    border-radius: 8px;
+}
