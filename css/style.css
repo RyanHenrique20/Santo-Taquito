@@ -348,18 +348,157 @@ header::before {
     background: var(--fundo-da-pagina);
 }
 
-.lista-unidades{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* Henry */
+
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner .botoes {
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+}
+
+.lista-unidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
 .unidade img{
     width: 100%;
     height: auto;
-    max-width: 300px;
+    border: 2px solid #5a2a1a;
+    border-radius: 20px;
 }
 
+.unidade h3 {
+    margin: 0 0 10px;
+    color: #4a2410;
+}
+
+.unidade {
+    padding-bottom: 60px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 2px solid #5a2a1a;
+    border-radius: 999px;   /*forma de pilula */
+    font-family: "Nunito", "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 3px 0 #5a2a1a;    /* sombra solida embaixo */
+    transition: transform .1s, box-shadow .1s;
+}
+
+.btn-vermelho {
+    background: #c0392b;
+    color: #fff;
+}
+
+.btn-amarelo {
+    background: #ffcf5c;
+    color: #4a2410;
+}
+
+/*efeito de clique que afunda o botão */
+.btm:hover {
+    transform: translateY(1px);
+    box-shadow: 0 2px 0 #5a2a1a;
+}
+
+.btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 0 #5a2a1a;
+}
+
+.destaques,
+.unidade {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 24px;
+    text-align: center;
+}
+
+.chamada {
+    margin: 0 0 8px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #2e7d4f;
+}
+
+.destaques h2,
+.unidades h2  {
+    margin: 0 0 32px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+    color: #c0392b;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    background: #fff;
+    border: 2px solid #5a2a1a;
+    border-radius: 24px;
+    box-shadow: 0 4px 0 #5a2a1a;
+}
+
+.card img {
+    width: 160px;
+    height: auto;
+}
+
+.card h3 {
+    margin: 12px 0 6px;
+    color: #4a2410;
+}
+
+.card p {
+    margin: 0 0 16px;
+    flex-grow: 1;
+}
+
+.unidades .btn{
+    width: auto;
+    min-width: max-content;
+    height: auto;
+}
+
+ /* fim Henry */
 
 .engloba-conteudo {
     display:flex;
