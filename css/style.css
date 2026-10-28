@@ -207,8 +207,45 @@ header::before {
     padding: 24px;
     box-shadow: 4px 4px var(--marrom-contorno);
 }
-
+/*centralizou as tabelas umas nas outras*/
 .informacoes-reserva {
     flex: 2;
+    min-width: 0;
+}
+
+.formulario-reserva .campo {
+    margin-bottom: 16px;
+}
+
+.formulario-reserva .campo label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--marrom-texto);
+    font-weight: bold;
+}
+
+.formulario-reserva .campo input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 8px;
+    background-color: var(--branco);
+    color: var(--marrom-texto);
+    font-family: inherit;
+}
+
+.formulario-reserva .campo input :focus {
+    outline: 2px solid var(--verde-escuro);
+    outline-offset: 2px;
+}
+
+.formulario-reserva .linha-campos {
+    display: flex;
+    gap: 16px;
+}
+
+.formulario-reserva .linha-campos .campo {
+    flex:1;
     min-width: 0;
 }
