@@ -197,4 +197,18 @@ header::before {
     align-items: flex-start
 }
 
+/*Ajustou todo o campo formulário, adicionando bordas mais refinadas, cor de fundo, efeito sombra e centralizando corretamente com a página.*/
+.formulario-reserva {
+    flex: 3;
+    min-width: 0;
+    background-color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 4px 4px var(--marrom-contorno);
+}
 
+.informacoes-reserva {
+    flex: 2;
+    min-width: 0;
+}
