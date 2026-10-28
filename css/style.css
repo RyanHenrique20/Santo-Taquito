@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px; 
+  padding: 10px 40px; 
   background-color: #fff8ef;
   
 }
@@ -183,6 +183,24 @@ header::before {
   );
 }
 
+/* inicio gaby*/ 
 
+.cardapio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 40px;
+  background: #FFF4D6;
+}
 
+.drink {
+  text-align: center;
+}
+
+.drink img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* fim gaby*/
 
