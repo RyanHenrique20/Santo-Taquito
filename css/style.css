@@ -349,55 +349,56 @@ header::before {
 }
 
     /* Henry */
+
 .banner-index {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border-style: solid;
-    border-bottom-color: var(--marrom-contorno);
-    margin-top:4px;
+    width: 100%; /* Largura do elemento */
+    height: 100%; /* Altura do elemento */
+    border-radius: 10px; /* Arredonda os cantos */
+    border-style: solid; /* Estilo da linha solid= continua */
+    border-bottom-color: var(--marrom-contorno); /* Cor so da borda de baixo */
+    margin-top:4px; /* Margem so em cima ou so embaixo */
 }
 
 .banner {
-    position: relative;
+    position: relative; /* Define como o elemento é posicionado relative= fica no lugar normal, mas pode ser deslocado */ 
 }
 
 .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
+    display: block; /* define o comportamento do elemento block= ocupa a linha inteira, um embaixo do outro */
+    width: 100%; /* Largura do elemento */
+    height: auto; /* Altura do elemento auto= se ajusta sozinha ao conteudo */
 }
 
 .banner .botoes {
-    position: absolute;
-    left: 50%;
-    bottom: 8%;
-    transform: translateX(-43%); 
-    display: flex;
-    gap: 12px;  
+    position: absolute; /* Define como o elemento é posicionado absolute= sai do fluxo normal e se posiciona em relação ao position relative */
+    left: 50%; /* Distancia do elemento ate a borda esqueda */
+    bottom: 8%; /* Distancia do elemento ate a borda inferior */
+    transform: translateX(-43%); /* Move o elemento na horizontal */
+    display: flex; /* Define o comportamento do elemento flex= organiza em linha ou coluna de uma forma flexivel */
+    gap: 12px;  /* Define o espaço entre os itens de um flex ou grid */
 }
 
 .lista-unidades{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 24px;
-    margin-bottom: 32px;
+    display: grid; /* Define o comportamento do elemento grid= transforma em um container de grade */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Define as colunas de um display grid */
+    gap: 24px; /* Define o espaço entre o itens de um flex ou grid */
+    margin-bottom: 32px; /* margem so em cima ou so em baixo */
 }
 
 .unidade img{
-    width: 100%;
-    height: auto;
-    border: 2px solid #5a2a1a;
-    border-radius: 20px;
+    width: 100%; /* Define a largura do elemento */
+    height: auto; /* Define a altura de um elemento auto= se ajusta sozinho ao conteudo */
+    border: 2px solid #5a2a1a; /* Cria uma borda */
+    border-radius: 20px; /* Arredonda os cantos */
 }
 
 .unidade h3 {
-    margin: 0 0 10px;
-    color: #4a2410;
+    margin: 0 0 10px; /* Espaço de fora do elemento */
+    color: #4a2410; /* Define a cor do texto */
 }
 
 .unidade {
-    padding-bottom: 60px;
+    padding-bottom: 60px; 
 }
 
 .btn {
