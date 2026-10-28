@@ -81,7 +81,7 @@
     <div class="linha-campos">
         <div class="campo">
         <label> Unidades: </label>
-            <select style="width: 248px;">
+            <select>
                 <option> Tatuapé </option>
                 <option> Paulista </option>
                 <option> Pinheiros </option>
@@ -107,15 +107,18 @@
         </div>
     </div>
 
-            <label>Data:</label>
-            <br>
-            <input type="date" size="30">
-            <br><br>
 
-            <label>Horário:</label>
-            <br>
-            <input type="time" size="30">
-            <br><br>
+    <div class="linha-campos">
+        <div class="campo">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="date">
+        </div>
+
+        <div class="campo">
+                <label>Horário:</label>
+                <input type="time" id="horario" name="horario">
+            </div>
+        </div>
 
             <label>Ocasião (opcional):</label>
             <br>
