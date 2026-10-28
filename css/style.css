@@ -183,4 +183,18 @@ header::before {
   );
 }
 
+/* Ajusta a localização do formulário na pagina*/
+.engloba-conteúdo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Ajusta o trecho do texto, alinhando ele a direita do formulário*/
+.layout-reservas {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start
+}
+
 
