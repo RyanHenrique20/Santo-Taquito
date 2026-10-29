@@ -227,6 +227,7 @@ header::before {
 .formulario-reserva .campo input,
 .formulario-reserva .campo select,
 .formulario-reserva .campo textarea {
+    resize: none;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
@@ -252,4 +253,25 @@ header::before {
 .formulario-reserva .linha-campos .campo {
     flex:1;
     min-width: 0;
+}
+
+.formulario-reserva .botao-reserva{
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 24px;
+    padding: 12px 20px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario-reserva .botao-reserva:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.formulario-reserva .botao-reserva:focus-visible {
+    outline: 2px solid var(--verde-escuro);
+    outline-offset: 4px;
 }
