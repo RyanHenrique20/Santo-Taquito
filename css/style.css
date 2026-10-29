@@ -78,8 +78,7 @@
 
 body {
     margin: 0;
-    background-color: var(--fundo-da-pagina);
-    margin-right: 20px;   
+    background-color: var(--fundo-da-pagina);   
  }
 
 header {
@@ -186,11 +185,12 @@ header::before {
 /* inicio gaby*/ 
 
 .cardapio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  padding: 40px;
-  background: #FFF4D6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
+    padding: 40px 5%;
+    text-align: center;
+    font-size: 18px;
 }
 
 .drink {
@@ -198,8 +198,23 @@ header::before {
 }
 
 .drink img {
-  width: 100%;
-  max-width: 400px;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+}
+
+.drink p b {
+    font-size: 24px;
+    color: var(--vermelho-primenta);
+}
+
+  .banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+
 }
 
 /* fim gaby*/
