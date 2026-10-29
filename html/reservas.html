@@ -90,7 +90,7 @@
 
     <div class="campo"> 
         <label>Número de pessoas: </label>
-            <select style="width: 248px;">
+            <select>
                 <option> 1 Pessoa </option>
                 <option> 2 Pessoas</option>
                 <option> 3 Pessoas</option>
@@ -120,15 +120,16 @@
             </div>
         </div>
 
-            <label>Ocasião (opcional):</label>
-            <br>
-            <input type="text" placeholder="Aniversário, open drinks, reunião..." size="30">
-            <br><br>
+            
+            <div class="campo">
+                <label>Ocasião (opcional):</label>
+                <input type="text" placeholder="Aniversário, open drinks, reunião...">
+           </div>
 
-            <label>Observações:</label>
-            <br>
-            <input type="text" placeholder="Cadeirinha para criança, acessibilidade..." size="30">
-            <br><br>
+           <div class="campo">
+                <label>Observações:</label>
+                <textarea id="observacoes" name="observacoes" rows="4" placeholder="Cadeirinha para criança, acessibilidade..." size="30"> </textarea>
+           </div>
 
             <input type="submit" value="CONFIRMAR RESERVA">
         </form>

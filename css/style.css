@@ -225,7 +225,8 @@ header::before {
 }
 
 .formulario-reserva .campo input,
-.formulario-reserva .campo select {
+.formulario-reserva .campo select,
+.formulario-reserva .campo textarea {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
@@ -236,8 +237,9 @@ header::before {
     font-family: inherit;
 }
 
-.formulario-reserva .campo input,
-.formulario-reserva .campo select:focus {
+.formulario-reserva .campo input:focus,
+.formulario-reserva .campo select:focus ,
+.formulario-reserva .campo textarea:focus {
     outline: 2px solid var(--verde-escuro);
     outline-offset: 2px;
 }
