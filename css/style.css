@@ -80,6 +80,10 @@ body {
     margin: 0;
     background-color: var(--fundo-da-pagina);
     margin-right: 20px;   
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
  }
 
 header {
@@ -92,11 +96,13 @@ footer {
     border-radius: 20px;
     border: 3px solid var(--marrom-contorno);
     box-shadow: 5px 5px var(--marrom-contorno);
+    margin-top: auto;
+    
 }
 
 .copy-rodape {
     margin: 0 auto;
-    height: 80%;
+    padding: 12px 0;
     width: 90%;
     border-top: 3px solid var(--marrom-contorno);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -277,7 +283,7 @@ header::before {
 }
 
 .informacoes-reserva .cartao-como-funciona{
-    background-color: var(--creme));
+    background-color: var(--creme);
     color: var(--marrom-texto);
     border: 3px solid var(--marrom-contorno);
     border-radius: 14px;
