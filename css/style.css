@@ -275,3 +275,65 @@ header::before {
     outline: 2px solid var(--verde-escuro);
     outline-offset: 4px;
 }
+
+.informacoes-reserva .cartao-como-funciona{
+    background-color: var(--creme));
+    color: var(--marrom-texto);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    
+}
+
+.informacoes-reserva .cartao-grupos{
+    background-color: var(--branco);
+    color: var(--marrom-texto);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+}
+
+.informacoes-reserva .cartao-aniversariante{
+    background-color: var(--amarelo-tordilha);
+    color: var(--marrom-texto);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    text-align: center;
+}
+
+/* Fonte e cor do conteúdo da página de reservas */
+.engloba-conteúdo {
+    font-family: "DejaVu Sans", Arial, sans-serif;
+    color: var(--marrom-texto);
+}
+
+/* Título principal */
+.engloba-conteúdo h1 {
+    font-family: "DejaVu Serif", Georgia, serif;
+    font-size: 44px;
+    color: var(--vermelho-primenta);
+    margin: 0 0 12px;
+}
+
+/* Título do formulário */
+.formulario-reserva h2 {
+    font-family: "DejaVu Serif", Georgia, serif;
+    font-size: 30px;
+    color: var(--vermelho-primenta);
+    margin: 0 0 20px;
+}
+
+.informacoes-reserva .cartao-info h2 {
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+
+.formulario-reserva .campo label {
+    font-size: 13px;
+}
