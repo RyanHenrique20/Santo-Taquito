@@ -78,6 +78,9 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--fundo-da-pagina);   
  }
 
@@ -148,7 +151,7 @@ footer {
 
 .rodape-site strong , .rodape-atendimento strong, .rodape-contato strong {
     color:var(--dourado-aureola);
-    margin-bottom:10px;
+    margin: bottom 18px;
 }
 
 .rodape-site , .rodape-atendimento , .rodape-contato {
@@ -165,7 +168,7 @@ footer {
 .rodape-site a , .rodape-atendimento a , .rodape-contato i  {
     color:var(--creme);
     text-decoration: none;
-    font-size: small;
+    font-size: 18px;
 }
 
 header::before {
@@ -190,7 +193,7 @@ header::before {
     gap: 60px 40px;
     padding: 40px 5%;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .drink {
