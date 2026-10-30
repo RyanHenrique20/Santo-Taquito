@@ -166,7 +166,7 @@ header {
     width: 20%;
     padding: 20px;
 }
-/* bruno */
+/* bruno - contato */
 .content-contato {
     padding: 50px;
     display: flex;
@@ -179,6 +179,14 @@ header {
     background-color: var(--fundo-da-pagina);
     width: 40%;
     padding: 20px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--marrom-contorno);
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 /* fim bruno */
 
