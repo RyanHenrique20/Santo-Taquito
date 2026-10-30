@@ -38,55 +38,54 @@
         <img src="../img/banner-trabalhe-conosco-com-texto.png" alt="Banner com fundo de raios amarelos e creme.À esquerda,o texto'Faça parte da equipe' com o titulo em verde,'trabalhe conosco'em vermelho,com um covite para  enviar o curriculo para rh@santotaquito.com.br ou preencher o formulario" width="2000" >
     </div>
 
-    <section>
+    <section class="vagas">
         <div>
-            <h1>Vagas Abertas</h1>
+            <h2  class="vagas-titulos">Vagas Abertas</h2>
 <!--Card 1: Garçom / Garçonete-->
-            <div>
-                <div>
-                    <h2>Garçom / Garçonete</h2>
-                    <p>Tatuape e Paulista </p>
-                    <p>Vaga Aberta</p>
+            <div class="vagas-abertas">
+                <div class="vaga-card">
+                    <h3 class="vaga-cargo">Garçom / Garçonete</h3>
+                    <p class="vaga-local">Tatuape e Paulista </p>
+                    <span class="vaga-status">Vaga Aberta</span>
                 </div>
             </div>
     <!--Card 2: Cozinheiro(a)-->
             <div>
-                <div>
-                    <h3>Cozinheiro(a)</h3>
-                    <p>Pinheiros</p>
-                    <p>Vaga Aberta</p>    
+                <div class="vaga-card">
+                    <h3 class="vaga-cargo">Cozinheiro(a)</h3>
+                    <p class="vaga-local">Pinheiros</p>
+                    <span class="vaga-status">Vaga Aberta</span>
                 </div>
             </div>
-    <!--Card 3: Bartener-->
-            </div>
-                <div>
-                    <h3>Bartender</h3>
-                    <p>Todas as unidades</p>
-                    <p>Vaga Aberta</p>
+    <!--Card 3: Bartener-->    
+                <div class="vaga-card">
+                    <h3 class="vaga-cargo">Bartender</h3>
+                    <p class="vaga-local">Todas as unidades</p>
+                    <span class="vaga-status">Vaga Aberta</span>
                 </div>
     <!--Card Especial: E-mail do RH-->
-            <div>
+            <div class="card-rh">
                 <div>
-                    <h3>E-mail do RH</h3>
+                    <h3 class="text-rh">E-mail do RH</h3>
                     <p>rh@santotaquito.com.br</p>
                     <p>(e-mail ficticio)</p>
                 </div>
             </div>
     <!--Formulario de candidatura-->
-            <div>
-                <h2>Envie sua candidatura</h2>
+            <div class="form-candidatura">
+                <h2 class="text-envie-candidatura">Envie sua candidatura</h2>
                 <form>
                     <label for="nome">Nome Completo:</label><br>
-                    <input type="text" id="nome" name="nome" required><br>
+                    <input class="card-nome" type="text" id="nome" name="nome" required><br>
                     <br>
                     <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" required><br>
+                    <input class="borda-geral" type="email" id="email" name="email" required><br>
                     <br>
                     <label for="telefone">Telefone:</label><br>
-                    <input type="tel" id="telefone" name="telefone" required><br>
+                    <input class="borda-geral" type="tel" id="telefone" name="telefone" required><br>
                     <br>
-                    <label for="vaga">Vaga de interesse:</label><br>
-                    <select id="vaga" name="vaga" required>
+                    <label  for="vaga">Vaga de interesse:</label><br>
+                    <select class="borda-geral" id="vaga" name="vaga" required>
                         <option value="">Selecione uma vaga</option>
                         <option value="garcom">Garçom / Garçonete</option>
                         <option value="cozinheiro">Cozinheiro(a)</option>
@@ -94,9 +93,9 @@
                     </select><br>
                     <br>
                     <label for="curriculo">Currículo (PDF):</label><br>
-                    <input type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
+                    <input class="card-curriculo"type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
                     <br>
-                    <input type="submit" value="Enviar Candidatura">   
+                    <input class="enviar-candidatura" type="submit" value="Enviar Candidatura">   
                 </form>
             </div>     
         </section>
