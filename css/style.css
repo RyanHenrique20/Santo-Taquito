@@ -188,13 +188,29 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     border-radius: 8px;
     box-sizing: border-box;
 }
+input[type="number"], input[type="date"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.posicao {
+    display: flex;
+    gap: 10px;
+}
 label {
     font-weight: bold;
     font-family: inherit;
     color: var(--marrom-texto);
 }
-input:hover, textarea:hover {
-    border-color: var(--verde-moldura);
+input:focus, textarea:focus {
+    outline: 2px solid var(--verde-moldura);
+    outline-offset: 3px;
+}
+h1, h2 {
+    color: var(--vermelho-primenta);
+    font-family:
 }
 /* fim bruno */
 
