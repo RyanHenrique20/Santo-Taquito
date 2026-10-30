@@ -181,29 +181,21 @@ header::before {
     #fdf6e9 33.33% 66.66%,
     #c0392b 66.66% 100%
   );
-
-  /* João */
-
 }
+ 
+    /* João */
+
 .borda{
     border-radius: 20px; /*raio de borda das imagens*/
-    box-shadow:#9E2E22 3px 4px 0 0; /*sombra da borda*/
-}
-
-.card{
-  border:#c0392b solid 2px; /*borda do card*/
-  border-radius: 24px; /*raio de borda do card*/
-  box-shadow:#C0392B 3px 4px 0 0; /*sombra da borda do card*/
-  padding: 10px; /*distância da borda do card até a imagem*/
-
+    box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
 }
 
 .margemc{
-    margin-top: 50px; /*distância do card do cabeçalho*/
+    margin-top: 50px; /*espaçamento pra cima (externo)*/
 } 
 
 .margemb{
-    margin-bottom: 50px; /*distância do card do rodapé*/
+    margin-bottom: 50px; /*espaçamento pra baixo (externo)*/
 }
 
 .img{
@@ -213,9 +205,26 @@ header::before {
 }
 
 .card2{
-    border:#2e7d4f solid 2px;
-    border-radius: 24px;
-    box-shadow: #2e7d4f 3px 4px 0 0;
-    padding: 100px;
-    
+    border:#7A3E12 solid 2px; /*deixa a borda sólida*/
+    border-radius: 24px; /*deixa a borda arredondada*/
+    box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
+    padding: 30px; /*espaçamento (interno)*/
+    padding-inline: 20px; /*espaçamento nas laterais (interno)*/
+    background-color:#FFFFFF
+   
 }
+.card3{
+    border:#9E2E22 2px; /*deixa a borda sólida*/
+    border-radius: 24px; /*deixa a borda arredondada*/
+    box-shadow:#9E2E22 5px 6px 0 0; /*sombra da borda*/
+    padding: 2px; /*espaçamento (interno)*/
+    background-color: #C0392B; /*cor do fundo*/
+    width: 200px; /*tamanho do item*/
+    color:#FFF4D6;
+    margin: auto; /*espaçamento para centralizar (externo)*/
+    margin-top: 0px; /*espaçamento pra cima (externo)*/
+    margin-bottom: 20px; /*espaçamento pra baixo (externo)*/
+}
+
+
+
