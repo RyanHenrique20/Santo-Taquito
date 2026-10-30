@@ -250,6 +250,7 @@ header::before {
     font-family: inherit;
 }
 
+/*contorno botao*/
 .formulario-reserva .campo input:focus,
 .formulario-reserva .campo select:focus ,
 .formulario-reserva .campo textarea:focus {
@@ -279,10 +280,11 @@ header::before {
     cursor: pointer;
 }
 
+/*muda cor botao*/
 .formulario-reserva .botao-reserva:hover {
     background-color: var(--vermelho-escuro);
 }
-
+/*contorno botao*/
 .formulario-reserva .botao-reserva:focus-visible {
     outline: 2px solid var(--verde-escuro);
     outline-offset: 4px;
@@ -342,7 +344,7 @@ header::before {
     margin: 0 0 20px;
 }
 
-.informacoes-reserva .cartao-info h2 {
+.informacoes-reserva section h2 {
     font-family: "DejaVu Serif", Georgia, serif;
 }
 
@@ -350,4 +352,4 @@ header::before {
     font-size: 13px;
 }
 
-/*fim murilo/*
+/* fim Murilo */
