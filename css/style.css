@@ -189,7 +189,7 @@ header::before {
        border: 2px solid #7A3E12;  /* borda e a caracteristica de como ficara a borda */
        background-color: #ffffff; /* cor de fundo do card */
        padding: 10px; /* epaçamento interno*/
-       border-radius: 8px; /* arredondamento das bordas */
+       border-radius: 10px; /* arredondamento das bordas */
        box-shadow: 4px 4px 0 #7A3E12; /* sombra na borda do card*/
        margin-bottom: 10px; /* espaçamento entre os cards do lado de fora*/
        max-width: 300px;  /* largura máxima do card */
@@ -222,7 +222,7 @@ header::before {
 
     .vaga-status {
         background-color: #6BBF3A; /* cor de fundo do status da vaga*/
-        border-radius: 5px; /* arredondamento da borda do status da vaga*/
+        border-radius: 20px; /* arredondamento da borda do status da vaga*/
         border: 1px solid #7A3E12; /* borda do status da vaga*/
         padding: 3px 6px; /* espaçamento interno do status da vaga*/
        position: absolute; /*permite poscinar o status vaga dentro do card */
