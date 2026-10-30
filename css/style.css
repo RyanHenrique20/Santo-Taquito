@@ -214,12 +214,24 @@ input:focus, textarea:focus {
     outline-offset: 3px;
 }
 h1, h2 {
+    text-align: center;
     color: var(--vermelho-primenta);
     font-family: "DejaVu Serif", Georgia, serif;
 }
 p {
     font-family: "DejaVu Serif", Georgia, serif;
     color: var(--marrom-texto);
+}
+.botao-form-contato {
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 24px;
+    padding: 12px 20px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
 }
 /* fim bruno */
 
@@ -262,9 +274,7 @@ footer {
     color: var(--creme);
     margin-left: 40px;
     margin-bottom: 30px;
-    /* display: flex;
-    position:fixed;
-    top:275px; */
+
 }
 
 #selo-rodape {
