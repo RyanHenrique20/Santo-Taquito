@@ -183,7 +183,7 @@ header::before {
   );
 }
  
-    /* João */
+    /* início João */
 
 .borda{
     border-radius: 20px; /*raio de borda das imagens*/
@@ -210,7 +210,8 @@ header::before {
     box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
     padding: 30px; /*espaçamento (interno)*/
     padding-inline: 20px; /*espaçamento nas laterais (interno)*/
-    background-color:#FFFFFF
+    background-color:#FFFFFF; /*cor de fundo*/
+    min-height: 460px; /*define a altura mínima do elemento.*/
    
 }
 .card3{
@@ -225,6 +226,7 @@ header::before {
     margin-top: 0px; /*espaçamento pra cima (externo)*/
     margin-bottom: 20px; /*espaçamento pra baixo (externo)*/
 }
+    /* Fim João */
 
 
 
