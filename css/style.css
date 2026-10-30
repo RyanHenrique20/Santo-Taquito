@@ -398,52 +398,52 @@ header::before {
 }
 
 .unidade {
-    padding-bottom: 60px; 
+    padding-bottom: 60px; /* Define o espaço interno na parte de baixo do elemento */
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 22px;
-    border: 2px solid #5a2a1a;
-    border-radius: 999px;   /*forma de pilula */
-    font-family: "Nunito", "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    text-decoration: none;
-    white-space: nowrap;
-    box-shadow: 0 3px 0 #5a2a1a;    /* sombra solida embaixo */
-    transition: transform .1s, box-shadow .1s;
+    display: inline-block; /* Define o comportamento do elemento */
+    padding: 10px 22px; /* Espaço dentro do elemento, entre o conteudo e as bordas */
+    border: 2px solid #5a2a1a; /* Cria uma borda */
+    border-radius: 999px;   /* Arredonda os cantos */ 
+    font-family: "Nunito", "Poppins", sans-serif; /* Tipo de letra (fonte) */
+    font-weight: 700; /* Espessura da letra */
+    font-size: 14px; /* Tamanho da letra */
+    text-decoration: none; /* Sublinhado e similares */
+    white-space: nowrap; /* Controla quebra de linha */
+    box-shadow: 0 3px 0 #5a2a1a;    /* Sombra ao redor do elemento */
+    transition: transform .1s, box-shadow .1s; /* Suaviza mudanças, como passar o mouse */
 }
 
 .btn-vermelho {
-    background: #c0392b;
-    color: #fff;
+    background: #c0392b; /* Fundo do elemento */
+    color: #fff; /* Define a cor do texto */
 }
 
 #bnt-center {
-    transform: translateX(44%);
+    transform: translateX(44%); /* Move o elemento na horizontal */
 }
 
 .btn-amarelo {
-    background: #ffcf5c;
-    color: #4a2410;
+    background: #ffcf5c; /* Fundo do elemento */
+    color: #4a2410; /* DEfine a cor do texto */
 }
 
 /*efeito de clique que afunda o botão */
 .btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 2px 0 #5a2a1a;
+    transform: translateY(1px); /* Move o elemento na vertical */
+    box-shadow: 0 2px 0 #5a2a1a; /* Sombra ao redor do elemento */
 }
 
 .btn:active {
-    transform: translateY(3px);
-    box-shadow: 0 0 0 #5a2a1a;
+    transform: translateY(3px); /* Move o elemento na vertical */
+    box-shadow: 0 0 0 #5a2a1a; /* Sombra ao redor do elemento */
 }
 
 .destaques,
 .unidade {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1100px; /* Define a largura maxima que um elemento pode ter */
+    margin: 0 auto; 
     padding: 50px 24px;
     text-align: center;
 }
