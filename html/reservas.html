@@ -35,7 +35,7 @@
 
     <!-- Banner -->
     <div> 
-            <img src="../img/banner-reservas-com-texto.png" width="100%" height="100%" ="Banner de reservas com o texto 'Reserve sua mesa', instruções para escolher unidade, dia e horário, e ilustração de um personagem de comida com asas e auréola.">
+            <img class="banner-reservas" src="../img/banner-reservas-com-texto.png" alt="Reserve sua mesa. Escolha a unidade, o dia e o horário. A confirmação chega por e-mail.">
     </div>
     
     <main class="engloba-conteúdo">
@@ -48,51 +48,53 @@
         <form> 
     
             <div class="campo">
-                <label> Nome completo: </label>
-                <input type="text" placeholder="Seu nome" size="50">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
             </div>
 
 
             <div class="linha-campos">
                 <div class="campo">
-                <label> Telefone: </label>
-                <input type="text" placeholder="(11) 00000-0000" size="30">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000" required>
         </div>
 
 
         <div class="campo">
-            <label> E-mail: </label>
-            <input type="email" placeholder="voce@email.com"  size="30">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="voce@email.com" required>
         </div>
     </div>
 
             
     
     <div class="linha-campos">
-        <div class="campo">
-        <label> Unidades: </label>
-            <select>
-                <option> Tatuapé </option>
-                <option> Paulista </option>
-                <option> Pinheiros </option>
-            </select>
-    </div>
+            <div class="campo">
+                <label for="unidade">Unidade:</label>
+    <select id="unidade" name="unidade" required>
+        <option value="" disabled selected>Selecione uma unidade</option>
+        <option value="tatuape">Tatuapé</option>
+        <option value="paulista">Paulista</option>
+        <option value="pinheiros">Pinheiros</option>
+    </select>
+            </div>
 
     <div class="campo"> 
-        <label>Número de pessoas: </label>
-            <select>
-                <option> 1 Pessoa </option>
-                <option> 2 Pessoas</option>
-                <option> 3 Pessoas</option>
-                <option> 4 Pessoas</option>
-                <option> 5 Pessoas</option>
-                <option> 6 Pessoas</option>
-                <option> 7 Pessoas</option>
-                <option> 8 Pessoas</option>
-                <option> 9 Pessoas</option>
-                <option> 10 Pessoas</option>
-                <option> 11 pessoas </option>
-                <option> 12 pessoas </option>
+        <label for="pessoas">Número de pessoas:</label>
+            <select id="pessoas" name="pessoas" required>
+        <option value="" disabled selected>Selecione a quantidade</option>
+        <option value="1">1 pessoa</option>
+        <option value="2">2 pessoas</option>
+        <option value="3">3 pessoas</option>
+        <option value="4">4 pessoas</option>
+        <option value="5">5 pessoas</option>
+        <option value="6">6 pessoas</option>
+        <option value="7">7 pessoas</option>
+        <option value="8">8 pessoas</option>
+        <option value="9">9 pessoas</option>
+        <option value="10">10 pessoas</option>
+        <option value="11">11 pessoas</option>
+        <option value="12">12 pessoas</option>
             </select>
         </div>
     </div>
@@ -100,8 +102,8 @@
 
     <div class="linha-campos">
         <div class="campo">
-            <label for="data">Data:</label>
-            <input type="date" id="data" name="date">
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
         </div>
 
         <div class="campo">
@@ -117,8 +119,8 @@
            </div>
 
            <div class="campo">
-                <label>Observações:</label>
-                <textarea id="observacoes" name="observacoes" rows="4" placeholder="Cadeirinha para criança, acessibilidade..." size="30"> </textarea>
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes" rows="4" placeholder="Cadeirinha para criança, acessibilidade..."></textarea>
            </div>
 
             <input type="submit" class="botao-reserva" value="CONFIRMAR RESERVA">
@@ -150,7 +152,7 @@
 
     </aside>
    
-
+</div>
 
      </main>
      

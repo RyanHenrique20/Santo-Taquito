@@ -196,6 +196,12 @@ header::before {
     padding: 24px;
 }
 
+.banner-reservas {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* Ajusta o trecho do texto, alinhando ele a direita do formulário*/
 .layout-reservas {
     display: flex;
@@ -320,7 +326,7 @@ header::before {
     color: var(--marrom-texto);
 }
 
-/* Título principal */
+
 .engloba-conteúdo h1 {
     font-family: "DejaVu Serif", Georgia, serif;
     font-size: 44px;
@@ -328,7 +334,7 @@ header::before {
     margin: 0 0 12px;
 }
 
-/* Título do formulário */
+
 .formulario-reserva h2 {
     font-family: "DejaVu Serif", Georgia, serif;
     font-size: 30px;
