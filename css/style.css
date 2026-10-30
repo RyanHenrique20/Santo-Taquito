@@ -166,6 +166,7 @@ header {
     width: 20%;
     padding: 20px;
 }
+/* bruno */
 .content-contato {
     padding: 50px;
     display: flex;
@@ -175,10 +176,11 @@ header {
     border: solid 3px var(--marrom-contorno);
     border-radius: 20px;
     box-shadow: 5px 5px var(--marrom-contorno);
-    background-color: var(--creme);
+    background-color: var(--fundo-da-pagina);
     width: 40%;
     padding: 20px;
 }
+/* fim bruno */
 
 footer {
     background-color: var(--marrom-texto);
