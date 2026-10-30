@@ -92,6 +92,7 @@
     margin-right: 40px;
     width: 125px;
     text-align: center;
+    font-family: "DejaVu Serif", Georgia, serif;
 }
 
 .btn-principal {
@@ -184,16 +185,20 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    margin-top: 2px;
     border: 3px solid var(--marrom-contorno);
     border-radius: 8px;
     box-sizing: border-box;
+    font-family: "DejaVu Serif", Georgia, serif;
 }
 input[type="number"], input[type="date"] {
     padding: 10px;
     margin-bottom: 10px;
+    margin-top: 2px;
     border: 3px solid var(--marrom-contorno);
     border-radius: 8px;
     box-sizing: border-box;
+    font-family: "DejaVu Serif", Georgia, serif;
 }
 .posicao {
     display: flex;
@@ -201,7 +206,7 @@ input[type="number"], input[type="date"] {
 }
 label {
     font-weight: bold;
-    font-family: inherit;
+    font-family: "DejaVu Serif", Georgia, serif;
     color: var(--marrom-texto);
 }
 input:focus, textarea:focus {
@@ -210,7 +215,11 @@ input:focus, textarea:focus {
 }
 h1, h2 {
     color: var(--vermelho-primenta);
-    font-family:
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+p {
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
 }
 /* fim bruno */
 
