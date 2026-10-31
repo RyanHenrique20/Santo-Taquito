@@ -204,7 +204,7 @@ input[type="number"], input[type="date"] {
     display: flex;
     gap: 10px;
 }
-label {
+.contato-label {
     font-weight: bold;
     font-family: "DejaVu Serif", Georgia, serif;
     color: var(--marrom-texto);
