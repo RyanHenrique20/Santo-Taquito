@@ -35,32 +35,32 @@
 
     <!-- Banner -->
     <div> 
-            <img class="banner-reservas" src="../img/banner-reservas-com-texto.png" alt="Reserve sua mesa. Escolha a unidade, o dia e o horário. A confirmação chega por e-mail.">
+            <img class="reservas-banner" src="../img/banner-reservas-com-texto.png" alt="Reserve sua mesa. Escolha a unidade, o dia e o horário. A confirmação chega por e-mail.">
     </div>
     
-    <main class="engloba-conteúdo">
+    <main class="reservas-pagina">
 
-<div class="layout-reservas">
-    <section class="formulario-reserva" id="formulario-reserva">
+<div class="reservas-layout">
+   <section class="reservas-formulario" id="formulario-reserva">
 
         <h2> Dados da reserva </h2>
         
         <form> 
     
-            <div class="campo">
+            <div class="reservas-campo">
                 <label for="nome">Nome completo:</label>
                 <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
             </div>
 
 
-            <div class="linha-campos">
-                <div class="campo">
+            <div class="reservas-linha-campos">
+                <div class="reservas-campo">
                 <label for="telefone">Telefone:</label>
                 <input type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000" required>
         </div>
 
 
-        <div class="campo">
+        <div class="reservas-campo">
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" placeholder="voce@email.com" required>
         </div>
@@ -68,8 +68,8 @@
 
             
     
-    <div class="linha-campos">
-            <div class="campo">
+<div class="reservas-linha-campos">
+                <div class="reservas-campo">
                 <label for="unidade">Unidade:</label>
     <select id="unidade" name="unidade" required>
         <option value="" disabled selected>Selecione uma unidade</option>
@@ -79,7 +79,7 @@
     </select>
             </div>
 
-    <div class="campo"> 
+    <div class="reservas-campo">
         <label for="pessoas">Número de pessoas:</label>
             <select id="pessoas" name="pessoas" required>
         <option value="" disabled selected>Selecione a quantidade</option>
@@ -100,37 +100,37 @@
     </div>
 
 
-    <div class="linha-campos">
-        <div class="campo">
-        <label for="data">Data:</label>
+    <div class="reservas-linha-campos">
+    <div class="reservas-campo">
+            <label for="data">Data:</label>
         <input type="date" id="data" name="data" required>
         </div>
 
-        <div class="campo">
+        <div class="reservas-campo">
                 <label for="horario">Horário:</label>
                 <input type="time" id="horario" name="horario" required>
             </div>
         </div>
 
             
-            <div class="campo">
+            <div class="reservas-campo">
                 <label for="ocasiao">Ocasião (opcional):</label>
                 <input type="text" id="ocasiao" name="ocasiao" placeholder="Aniversário, open drinks, reunião...">
            </div>
 
-           <div class="campo">
+           <div class="reservas-campo">
                 <label for="observacoes">Observações:</label>
                 <textarea id="observacoes" name="observacoes" rows="4" placeholder="Cadeirinha para criança, acessibilidade..."></textarea>
            </div>
 
-            <input type="submit" class="botao-reserva" value="CONFIRMAR RESERVA">
+            <input type="submit" class="reservas-botao" value="CONFIRMAR RESERVA">
         </form>
     </section>
 
 
-    <aside class="informacoes-reserva">
+    <aside class="reservas-informacoes">
 
-        <section class="cartao-como-funciona">
+        <section class="reservas-cartao-como-funciona">
                  <h2>Como funciona</h2>
             <ol>
                 <li>Preencha o formulário</li>
@@ -139,13 +139,13 @@
             </ol>
         </section>
 
-        <section class="cartao-grupos">
+        <section class="reservas-cartao-grupos">
             <h2>Grupos acima de 12 pessoas</h2>
             <p>Escreva para reservas@santotaquito.com.br</p>
         </section>
 
 
-        <section class="cartao-aniversariante">
+        <section class="reservas-cartao-aniversariante">
             <h2>Aniversariante ganha churros!</h2>
             <p>Avise no campo "ocasião".</p>
          </section>
@@ -176,8 +176,8 @@
                 <li><a href="sac.html"><i>SAC</i></a></li>
                 <li><a href="unidades.html"><i>Unidades</i></a></li>
                 <li><a href="trabalhe-conosco.html"><i>Trabalhe Conosco</i></a></li>
-                <li><a href="html/contato.html"> Contato </a></li>
-                <li><a href="html/orcamento.html"> Orçamento </a></li>
+                <li><a href="html/contato.html"> Contatos </a></li>
+                <li><a href="html/orcamento.html"> Orçamentos </a></li>
  
             </ul>
             <ul class="rodape-contato">

@@ -188,29 +188,29 @@ header::before {
     #c0392b 66.66% 100%
   );
 }
-/* Começo Murilo /
+/* Começo Murilo */
 /* Ajusta a localização do formulário na pagina*/
-.engloba-conteúdo {
+.reservas-pagina {
     max-width: 1200px;
     margin: 0 auto;
     padding: 24px;
 }
 
-.banner-reservas {
+.reservas-banner {
     display: block;
     width: 100%;
     height: auto;
 }
 
 /* Ajusta o trecho do texto, alinhando ele a direita do formulário*/
-.layout-reservas {
+.reservas-layout {
     display: flex;
     gap: 24px;
     align-items: flex-start
 }
 
 /*Ajustou todo o campo formulário, adicionando bordas mais refinadas, cor de fundo, efeito sombra e centralizando corretamente com a página.*/
-.formulario-reserva {
+.reservas-formulario {
     flex: 3;
     min-width: 0;
     background-color: var(--branco);
@@ -220,25 +220,25 @@ header::before {
     box-shadow: 4px 4px var(--marrom-contorno);
 }
 /*centralizou as tabelas umas nas outras*/
-.informacoes-reserva {
+.reservas-informacoes {
     flex: 2;
     min-width: 0;
 }
 
-.formulario-reserva .campo {
+.reservas-formulario .reservas-campo {
     margin-bottom: 16px;
 }
 
-.formulario-reserva .campo label {
+.reservas-formulario .reservas-campo label {
     display: block;
     margin-bottom: 6px;
     color: var(--marrom-texto);
     font-weight: bold;
 }
 
-.formulario-reserva .campo input,
-.formulario-reserva .campo select,
-.formulario-reserva .campo textarea {
+.reservas-formulario .reservas-campo input,
+.reservas-formulario .reservas-campo select,
+.reservas-formulario .reservas-campo textarea {
     resize: none;
     width: 100%;
     box-sizing: border-box;
@@ -251,46 +251,47 @@ header::before {
 }
 
 /*contorno botao*/
-.formulario-reserva .campo input:focus,
-.formulario-reserva .campo select:focus ,
-.formulario-reserva .campo textarea:focus {
+/* Contorno dos campos em foco */
+.reservas-formulario .reservas-campo input:focus,
+.reservas-formulario .reservas-campo select:focus,
+.reservas-formulario .reservas-campo textarea:focus {
     outline: 2px solid var(--verde-escuro);
     outline-offset: 2px;
 }
 
-.formulario-reserva .linha-campos {
+.reservas-formulario .reservas-linha-campos {
     display: flex;
     gap: 16px;
 }
 
-.formulario-reserva .linha-campos .campo {
-    flex:1;
+.reservas-formulario .reservas-linha-campos .reservas-campo {
+    flex: 1;
     min-width: 0;
 }
 
-.formulario-reserva .botao-reserva{
+.reservas-formulario .reservas-botao {
     background-color: var(--vermelho-primenta);
     color: var(--branco);
     border: 3px solid var(--marrom-contorno);
     border-radius: 24px;
     padding: 12px 20px;
     box-shadow: 4px 4px 0 var(--marrom-contorno);
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     cursor: pointer;
 }
 
-/*muda cor botao*/
-.formulario-reserva .botao-reserva:hover {
+/* Muda a cor do botão ao passar o mouse */
+.reservas-formulario .reservas-botao:hover {
     background-color: var(--vermelho-escuro);
 }
 /*contorno botao*/
-.formulario-reserva .botao-reserva:focus-visible {
+.reservas-formulario .reservas-botao:focus-visible {
     outline: 2px solid var(--verde-escuro);
     outline-offset: 4px;
 }
 
-.informacoes-reserva .cartao-como-funciona{
+.reservas-informacoes .reservas-cartao-como-funciona {
     background-color: var(--creme);
     color: var(--marrom-texto);
     border: 3px solid var(--marrom-contorno);
@@ -301,7 +302,7 @@ header::before {
     
 }
 
-.informacoes-reserva .cartao-grupos{
+.reservas-informacoes .reservas-cartao-grupos {
     background-color: var(--branco);
     color: var(--marrom-texto);
     border: 3px solid var(--marrom-contorno);
@@ -311,7 +312,7 @@ header::before {
     box-shadow: 4px 4px 0 var(--marrom-contorno);
 }
 
-.informacoes-reserva .cartao-aniversariante{
+.reservas-informacoes .reservas-cartao-aniversariante {
     background-color: var(--amarelo-tordilha);
     color: var(--marrom-texto);
     border: 3px solid var(--marrom-contorno);
@@ -323,32 +324,31 @@ header::before {
 }
 
 /* Fonte e cor do conteúdo da página de reservas */
-.engloba-conteúdo {
+.reservas-pagina {
     font-family: "DejaVu Sans", Arial, sans-serif;
     color: var(--marrom-texto);
 }
 
 
-.engloba-conteúdo h1 {
+.reservas-pagina h1 {
     font-family: "DejaVu Serif", Georgia, serif;
     font-size: 44px;
     color: var(--vermelho-primenta);
     margin: 0 0 12px;
 }
 
-
-.formulario-reserva h2 {
+.reservas-formulario h2 {
     font-family: "DejaVu Serif", Georgia, serif;
     font-size: 30px;
     color: var(--vermelho-primenta);
     margin: 0 0 20px;
 }
 
-.informacoes-reserva section h2 {
+.reservas-informacoes section h2 {
     font-family: "DejaVu Serif", Georgia, serif;
 }
 
-.formulario-reserva .campo label {
+.reservas-formulario .reservas-campo label {
     font-size: 13px;
 }
 
