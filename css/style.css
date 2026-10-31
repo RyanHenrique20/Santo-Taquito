@@ -185,99 +185,165 @@ header::before {
 
  /* trabalhe-conosco victor */
 
+   .vaga-card,
+   .card-rh,
+   .form-canditadura {
+    border: 2px solid var(--marrom-contorno); /* borda e como ela fica, quanto menor px= borda fina, maior px= borda grossa */
+    box-shadow: 4px 4px 0 var(--marrom-contorno); /* sobras na borda do card */
+    margin: 30px; /* margem de fora */
+    padding: 10px; /* margem de dentro */
+
+
+   }
+ 
+ 
     .vaga-card {   /* quem vai receber o card */
-       border: 2px solid #7A3E12;  /* borda e a caracteristica de como ficara a borda */
-       background-color: #ffffff; /* cor de fundo do card */
-       padding: 10px; /* epaçamento interno*/
+       background-color: var(--branco); /* cor de fundo do card */
+       border: 2px solid var(--marrom-contorno);
        border-radius: 10px; /* arredondamento das bordas */
-       box-shadow: 4px 4px 0 #7A3E12; /* sombra na borda do card*/
        margin-bottom: 10px; /* espaçamento entre os cards do lado de fora*/
        max-width: 300px;  /* largura máxima do card */
-       margin:30px;/* margem externa */
        position: relative; /*posição relativa para permitir o poscionamento do status vaga*/
 
 }
 
 
     .vagas-titulos {  /* Estilização do titulo vagas abertas */
-        color: #C0392B; /* cor da fonte */
+        color: var(--vermelho-primenta); /* cor da fonte */
         margin: 30px;  /* margem externa */
     }
 
 
-   .vaga-cargo {    /* estilizção do cargo do card */
+   .vaga-cargo {    /* estilizção do card de cargo */
         font-size: 18px;   /* tamanho da fonte */
         font-weight: bold;     /* negrito */
         font-family: Georgia, serif;    /* tipo da fonte */
-        color: #000000; /* cor da fonte */
+        color: #000000; /* cor da fonte dos titulos na caixa */
         
    }
 
    .vaga-local {
         font-size: 16px;/*tamanho da fonte */
-        color: #7A3E12; /* cor da fonte */
+        color: var(--marrom-contorno); /* cor da fonte */
         margin: 4px 0; /* espaço entre o cargo e a localização*/
         
    }
 
     .vaga-status {
-        background-color: #6BBF3A; /* cor de fundo do status da vaga*/
+        background-color: var(--verde-alface); /* cor de fundo do status da vaga*/
         border-radius: 20px; /* arredondamento da borda do status da vaga*/
-        border: 1px solid #7A3E12; /* borda do status da vaga*/
+        border: 1px solid var(--marrom-contorno); /* borda do status da vaga*/
         padding: 3px 6px; /* espaçamento interno do status da vaga*/
-       position: absolute; /*permite poscinar o status vaga dentro do card */
-       bottom: 10px; /* poscionamento do status vaga em relação a parte inferior do card */
-       right: 10px; /* poscionamento do status vaga em relação a parte direita do card */
+        position: absolute; /*permite poscinar o status vaga dentro do card */
+        bottom: 10px; /* poscionamento do status vaga em relação a parte inferior do card */
+        right: 10px; /* poscionamento do status vaga em relação a parte direita do card */
+        font-size: 11px;
+        font-weight: bold;
 
     }
 
     .card-rh {
-        border: 2px solid #7A3E12; /* cor da borda do card RH */
-        box-shadow: 4px 4px 0 #7A3E12; /* sombra do card RH */
         border-radius: 8px; /* arrendondamento das bordas do card */
-        background-color: #1F6B45; /* cor de fundo do card RH */
-        color: #ffffff; /* cor do card */
+        background-color: var(--verde-escuro); /* cor de fundo do card RH */
+        color: var(--branco); /* cor do card */
         max-width: 320px; /* largura maxima do card */
-        margin: 30px; /*Margem externa do card */
-        padding: 10px; /* epaçamento interno */
+       
     }
 
-    .text-rh { /* estilização do titulo e-mail do rh */
-        color: #FFC300; /* cor do titulo do card RH */
+    .text-rh { /* cor titulo e-mail do rh */
+        color: var(--dourado-aureola); /* cor do titulo do card RH */
     }
 
-    .form-candidatura {
-    border: 2px solid #7A3E12; /* borda e a caracteristica de como fica a borda */
-    border-radius: 8px; /* arredondamento da borda do card */
-    box-shadow: 4px 4px 0 #7A3E12; /* sombra do card */ 
-    background-color: #ffffff;
-    margin: 30px; /* margem externa do card */
-    padding: 10px; /* espaçamento interno */
-    max-width: 500px;
+
+        .form-candidatura {  /* card da candidatura */
+        border: 2px solid var(--marrom-contorno); /* borda e a caracteristica de como fica a borda */
+        border-radius: 8px; /* arredondamento da borda do card */
+        box-shadow: 4px 4px 0 var(--marrom-contorno); /* sombra do card */ 
+        background-color: var(--branco--);
+        max-width: 100%;
+        margin: 30px; /*espaçamento de fora */
+        padding: 10px; /* espaçamento de derntor */
+    }
+
+    .form-candidatura label {
+        font-weight: bold;
+        display: block; /* coloca cada titulo em cima do seu card */
+    }
+
+    .form-candidatura imput,
+    .form-candidatura select {
+        width: 100%; /* pega toda a largura da coluna */
+        padding: 10px;
+        box-sizing: border-box; /* o padding nao aumenta a largura total */
     }
        
     .text-envie-candidatura {
-        color: #C0392B; /* cor do titulo envie sua candidatura */
+        color: var(--vermelho-primenta); /* cor do titulo envie sua candidatura */
     }
 
     .card-nome {
-        border: 2px solid #7A3E12; /* borda e a caracteristisca de como fica a borda */
+        border: 2px solid var(--marrom-contorno); /* borda e a caracteristisca de como fica a borda */
         border-radius: 8px; /* arredondamento da borda do card */
-        box-shadow: 4px 4px 0 #7A3E12; /* sombra do card */ 
         width: 90%; /* largura do card */
     }
+    
+    .card-email, 
+    .card-telefone, 
+    .card-vagas,
+    .card-unidades,
+    .card-sobre-voce
+     {
+        border: 2px solid var(--marrom-contorno); /* borda e a caracteristisca de como fica a borda */
+        border-radius: 8px; /* arredondamento da borda do card */ 
+        color: var(--marrom-contorno);
+    }
 
-    .enviar-candidatura {
-        border: 2px solid #7A3E12; /* borda e a caracteristisca de como fica a borda */
-        border-radius: 8px; /* arredondamento da borda do card */
-        box-shadow: 4px 4px 0 #7A3E12; /* sombra do card */ 
-        background-color: #C0392B; /* cor da fonte */
+    .vagas-unidades { 
+        display: flex; /* colocou os dois card na mesma linha */
+        gap: 10px; /* espaço entre os cards */
+    }
+
+    .telefone-email{
+      display: flex;
+      gap: 10px; 
+    }
+
+    .card-curriculo {
+    border: 2px dashed var(--marrom-contorno); /* borda tracejada */
+    border-radius: 8px;
+    direction: rtl; /* inverte o sentido do card para jogar a caixa de selcionar o arqivo para a direita */
+    width: 90%;
+    color: var(--marrom-contorno);
+    }
+
+    .card-sobre-voce {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        resize: none;
+        color: var(--marrom-contorno);
+    }
+
+    .card-curriculo::file-selector-button { /* escolher e colocar borda no "escolher arquiivo" */
+        border: 2px solid var(--marrom-contorno);
+        border-radius: 8px;
+        
     }
     
-    .borda-geral {
-        border: 2px solid #7A3E12; /* borda e a caracteristisca de como fica a borda */
+    .enviar-candidatura {  /* card enviar candidatura */
+        border: 2px solid var(--marrom-contorno); /* borda e a caracteristisca de como fica a borda */
         border-radius: 8px; /* arredondamento da borda do card */
-        box-shadow: 4px 4px 0 #7A3E12; /* sombra do card */ 
+        box-shadow: 4px 4px 0 var(--marrom-contorno); /* sombra do card */ 
+        background-color: var(--vermelho-primenta); /* cor de dentro do card */
+        
     }
-
+    
+    .vagas {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr; /* coluna esquerda menor e da direita menor */
+        gap: 30px; /*espaço entre as colunas */
+    
+            }
+    
     

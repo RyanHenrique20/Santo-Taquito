@@ -35,33 +35,29 @@
     </div>
     
     <div>
-        <img src="../img/banner-trabalhe-conosco-com-texto.png" alt="Banner com fundo de raios amarelos e creme.À esquerda,o texto'Faça parte da equipe' com o titulo em verde,'trabalhe conosco'em vermelho,com um covite para  enviar o curriculo para rh@santotaquito.com.br ou preencher o formulario" width="2000" >
+        <img src="../img/banner-trabalhe-conosco-com-texto.png" alt="Banner com fundo de raios amarelos e creme.À esquerda,o texto'Faça parte da equipe' com o titulo em verde,'trabalhe conosco'em vermelho,com um covite para  enviar o curriculo para rh@santotaquito.com.br ou preencher o formulario" width="100%" >
     </div>
 
-    <section class="vagas">
-        <div>
+    <section class="vagas"> 
+        <div class="coluna-vagas">
             <h2  class="vagas-titulos">Vagas Abertas</h2>
 <!--Card 1: Garçom / Garçonete-->
-            <div class="vagas-abertas">
                 <div class="vaga-card">
                     <h3 class="vaga-cargo">Garçom / Garçonete</h3>
                     <p class="vaga-local">Tatuape e Paulista </p>
-                    <span class="vaga-status">Vaga Aberta</span>
+                    <span class="vaga-status">ABERTA</span>
                 </div>
-            </div>
     <!--Card 2: Cozinheiro(a)-->
-            <div>
                 <div class="vaga-card">
                     <h3 class="vaga-cargo">Cozinheiro(a)</h3>
                     <p class="vaga-local">Pinheiros</p>
-                    <span class="vaga-status">Vaga Aberta</span>
+                    <span class="vaga-status">ABERTA</span>
                 </div>
-            </div>
     <!--Card 3: Bartener-->    
                 <div class="vaga-card">
                     <h3 class="vaga-cargo">Bartender</h3>
                     <p class="vaga-local">Todas as unidades</p>
-                    <span class="vaga-status">Vaga Aberta</span>
+                    <span class="vaga-status">ABERTA</span>
                 </div>
     <!--Card Especial: E-mail do RH-->
             <div class="card-rh">
@@ -71,30 +67,54 @@
                     <p>(e-mail ficticio)</p>
                 </div>
             </div>
+        </div>
     <!--Formulario de candidatura-->
             <div class="form-candidatura">
                 <h2 class="text-envie-candidatura">Envie sua candidatura</h2>
                 <form>
                     <label for="nome">Nome Completo:</label><br>
-                    <input class="card-nome" type="text" id="nome" name="nome" required><br>
+                    <input class="card-nome" type="text" id="nome" name="nome" placeholder="Seu nome"><br>
                     <br>
-                    <label for="email">E-mail:</label><br>
-                    <input class="borda-geral" type="email" id="email" name="email" required><br>
-                    <br>
-                    <label for="telefone">Telefone:</label><br>
-                    <input class="borda-geral" type="tel" id="telefone" name="telefone" required><br>
-                    <br>
-                    <label  for="vaga">Vaga de interesse:</label><br>
-                    <select class="borda-geral" id="vaga" name="vaga" required>
+            <div class="telefone-email"> <!--deixa o telefone e e-mail lado a lado na linha-->
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input class="card-email" type="email" id="email" name="email" placeholder="voce@email.com" required>
+                </div>
+            
+                <div class="campo">  
+                    <label for="telefone">Telefone:</label>
+                    <input class="card-telefone" type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000"required>
+                </div>
+            </div>
+                     
+            <div class="vagas-unidades"> <!--deixa o vagas e unidades lado a lado na linha-->
+                <div class="campo">  <!--campo da vaga-->
+                    <label  for="vaga">Vagas:</label>
+                    <select class="card-vagas" id="vaga" name="vaga" required>
                         <option value="">Selecione uma vaga</option>
                         <option value="garcom">Garçom / Garçonete</option>
                         <option value="cozinheiro">Cozinheiro(a)</option>
                         <option value="bartender">Bartender</option>
-                    </select><br>
+                    </select>
+                </div>
+                <div class="campo">  <!--campo das unidades-->     
+                    <label for="Unidade">Unidades:</label>
+                    <select class="card-unidades"id="Unidades" name="Unidade" required>
+                        <option value="">Qualquer uma</option>
+                        <option>Tatuapé</option>
+                        <option>Paulista</option>
+                        <option>Pinheiros</option>
+                    </select>
+                </div>
+            </div>
                     <br>
                     <label for="curriculo">Currículo (PDF):</label><br>
                     <input class="card-curriculo"type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
                     <br>
+                <div>
+                      <label for="sobre-voce">Conte um pouco sobre você:</label><br>
+                      <textarea class="card-sobre-voce" id="sobre-voce" name="sobre-voce" placeholder="Experiência, disponibilidade..." required></textarea>  <!--textarea para aceitar texto longo-->
+                </div>   
                     <input class="enviar-candidatura" type="submit" value="Enviar Candidatura">   
                 </form>
             </div>     
