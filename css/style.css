@@ -92,7 +92,8 @@ header {
 
 footer {
     background-color: var(--marrom-texto);
-    height: 220px;
+    height: auto;
+    min-height: 220px;
     border-radius: 20px;
     border: 3px solid var(--marrom-contorno);
     box-shadow: 5px 5px var(--marrom-contorno);
