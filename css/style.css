@@ -226,6 +226,11 @@ header::before {
     margin-top: 0px; /*espaçamento pra cima (externo)*/
     margin-bottom: 20px; /*espaçamento pra baixo (externo)*/
 }
+
+.banner{
+    margin-top: 5px;  /*espaçamento pra cima (externo)*/
+    padding-left: 5px; /*espaçamento para a esquerda (interno)*/
+}   
     /* Fim João */
 
 
