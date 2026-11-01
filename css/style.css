@@ -197,7 +197,7 @@ header::before {
     .vaga-card {   /* quem vai receber o card */
        background-color: var(--branco); /* cor de fundo do card */
        border: 2px solid var(--marrom-contorno);
-       border-radius: 10px; /* arredondamento das bordas */
+       border-radius: 20px; /* arredondamento das bordas */
        margin-bottom: 20px; /* espaçamento entre os cards do lado de fora*/
        max-width: 100%;  /* 100% para o card ocupar a coluna interia */
        position: relative; /*posição relativa para permitir o poscionamento do status vaga*/
@@ -212,15 +212,15 @@ header::before {
     }
 
    .vaga-cargo {    /* estilizção do card de cargo */
-        font-size: 18px;   /* tamanho da fonte */
+        font-size: 18px;   
         font-weight: bold;     /* negrito */
         font-family: Georgia, serif;    /* tipo da fonte */
         color: #000000; /* cor da fonte dos titulos na caixa */
    }
 
    .vaga-local {
-        font-size: 16px;/*tamanho da fonte */
-        color: var(--marrom-contorno); /* cor da fonte */
+        font-size: 16px;
+        color: var(--marrom-contorno); 
         margin: 4px 0; /* espaço entre o cargo e a localização*/
    }
 
@@ -237,9 +237,9 @@ header::before {
     }
 
     .card-rh {
-        border-radius: 8px; /* arrendondamento das bordas do card */
-        background-color: var(--verde-escuro); /* cor de fundo do card RH */
-        color: var(--branco); /* cor do card */
+        border-radius: 20px; 
+        background-color: var(--verde-escuro); 
+        color: var(--branco); 
         max-width: 100%; 
     }
 
@@ -250,7 +250,7 @@ header::before {
 
         .form-candidatura {  /* card da candidatura */
         border: 2px solid var(--marrom-contorno); /* borda e a caracteristica de como fica a borda */
-        border-radius: 8px; /* arredondamento da borda do card */
+        border-radius: 20px; /* arredondamento da borda do card */
         box-shadow: 4px 4px 0 var(--marrom-contorno); /* sombra do card */ 
         background-color: #FFFFFF;
         max-width: 100%;
@@ -313,7 +313,7 @@ header::before {
         background-color: var(--branco);
         border: 2px dashed var(--marrom-contorno); /* borda tracejada */
         border-radius: 8px;
-        direction: rtl; /* inverte o sentido do card para jogar a caixa de selcionar o arqivo para a direita */
+        direction: rtl; /* inverte o sentido do card para jogar a caixa de selcionar o arquivo para a direita */
         width: 90%;
         color: var(--marrom-contorno);
     }
@@ -324,6 +324,13 @@ header::before {
         padding: 10px;
         box-sizing: border-box;
         resize: none;
+        color: var(--marrom-contorno);
+    }
+
+    .card-nome::placeholder, /* placeholder para adicionar a cor do texto dentro do card */
+    .card-email::placeholder,
+    .card-telefone::placeholder,
+    .card-sobre-voce::placeholder {
         color: var(--marrom-contorno);
     }
 
