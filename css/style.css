@@ -348,7 +348,7 @@ header::before {
     background: var(--fundo-da-pagina);
 }
 
-    /* Henry */
+    /* Inicio Henry */
 
 .banner-index {
     width: 100%; /* Largura do elemento */
@@ -421,7 +421,7 @@ header::before {
 }
 
 #bnt-center {
-    transform: translateX(44%); /* Move o elemento na horizontal */
+    text-align: center; /* Define o alinhamento horizontal do texto */
 }
 
 .btn-amarelo {
@@ -441,73 +441,73 @@ header::before {
 }
 
 .destaques,
-.unidade {
+.unidades {
     max-width: 1100px; /* Define a largura maxima que um elemento pode ter */
-    margin: 0 auto; 
-    padding: 50px 24px;
-    text-align: center;
+    margin: 0 auto; /* Espaço fora do elemento */
+    padding: 50px 24px; /* Espaço dentro do elemento */
+    text-align: center; /* Alinhamento do texto */
 }
 
 .chamada {
-    margin: 0 0 8px;
-    font-family: "Nunito", sans-serif;
-    font-weight: 800;
-    font-size: 14px;
-    letter-spacing: 3px;
-    color: #2e7d4f;
+    margin: 0 0 8px; /* Espaço fora do elemento */
+    font-family: "Nunito", sans-serif; /* fonte da letra */
+    font-weight: 800; /* Espessura da letra */
+    font-size: 14px; /* Tamanho da letra */
+    letter-spacing: 3px; /* Espaço entre as letras */
+    color: #2e7d4f; /* Cor do elemento */
 }
 
 .destaques h2,
 .unidades h2  {
-    margin: 0 0 32px;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 36px;
-    color: #c0392b;
+    margin: 0 0 32px; /* Espaço de fora do elemento */
+    font-family: Georgia, "Times New Roman", serif; /* Fonte da letra */
+    font-size: 36px; /* Tamanho da letra */
+    color: #c0392b; /* Cor do elemento */
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 24px;
+    display: grid; /* Define o comportamento do elemento */ 
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Define a coluna de um display */
+    gap: 24px; /* Espaço entre os elementos de flex ou grid */
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px;
-    background: #fff;
-    border: 2px solid #5a2a1a;
-    border-radius: 24px;
-    box-shadow: 0 4px 0 #5a2a1a;
+    display: flex; /* Define o comportamento do elemento */
+    flex-direction: column; /* Define a direção em que os itens são organizados */
+    align-items: center; /* Define o alinhamento dos itens no eixo transversal de container  flex ou grid */
+    padding: 24px; /* Espaço dentro do elemento, entre o conteudo e a borda */
+    background: #fff; /* Fundo do elemento */
+    border: 2px solid #5a2a1a; /* Cria uma borda */
+    border-radius: 24px; /* Arredonda os cantos */
+    box-shadow: 0 4px 0 #5a2a1a; /* Sombra ao redor do elemento */
 }
 
 .card img {
-    width: 160px;
-    height: auto;
+    width: 160px; /* Largura do elemento */
+    height: auto; /* Altura do elemento */
 }
 
 .card h3 {
-    margin: 12px 0 6px;
-    color: #4a2410;
+    margin: 12px 0 6px; /* Espaço fora do elemento */
+    color: #4a2410; /* Cor do elemento */
 }
 
 .card p {
-    margin: 0 0 16px;
-    flex-grow: 1;
+    margin: 0 0 16px; /* Espaço fora do elemento */
+    flex-grow: 1; /* Faz o elemento crescer ate preecnher o espaço restante do container flex */ 
 }
 
 .unidades .btn{
-    width: auto;
-    min-width: max-content;
-    height: auto;
+    width: auto; /* Largura do elemento */
+    min-width: max-content; /* Largura minima do elemento */
+    height: auto; /* Altura do elemento */ 
 }
 .card-uni {
-    padding: 24px;
-    background: #fff;
-    border: 2px solid #5a2a1a;
-    border-radius: 24px;
-    box-shadow: 0 4px 0 #5a2a1a;
+    padding: 24px; /* espaço dentro do elemento */
+    background: #fff; /* Fundo do elemento */
+    border: 2px solid #5a2a1a; /* Cria uma borda */
+    border-radius: 24px; /* Arredonda os cantos */
+    box-shadow: 0 4px 0 #5a2a1a; /* Sombra ao redor do elemento */
 }
 
  /* fim Henry */
