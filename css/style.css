@@ -204,7 +204,7 @@ header::before {
 
     }
 
-    .titulos {  /* Estilização dos titulo */
+    .titulos-vagas-candidatura {  /* Estilização dos titulo */
         color: var(--vermelho-primenta); /* cor da fonte */
         margin: 0 0 16px 0;  /* 0 ajusta em cima, 0 ajusta na diretita, 16px ajusta o que vem embaixo, utimo 0 ajusta o espaço na esquerda */
         font-size: 30px; /* tamanho dos titulos maiores */
@@ -255,7 +255,7 @@ header::before {
         background-color: #FFFFFF;
         max-width: 100%;
         margin: 0px; /*espaçamento de fora */
-        padding: 10px; /* espaçamento de derntor */
+        padding: 24px; /* espaçamento de dentro */
     }
 
     .form-candidatura label {
