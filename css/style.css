@@ -220,5 +220,12 @@ header::before {
 
 }
 
+.card-drinks {
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+    padding: 10px;
+    background-color: var(--branco);
+}
 /* fim gaby*/
 
