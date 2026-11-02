@@ -167,6 +167,19 @@ header {
     width: 20%;
     padding: 20px;
 }
+h1, h2, h3, h4 {
+    text-align: center;
+    color: var(--vermelho-primenta);
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+p {
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
+}
+.cor-h2-orcamento {
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
+}
 /* fim bruno orçamento */
 .content-contato {
     padding: 50px;
@@ -208,7 +221,6 @@ footer {
     margin-top:5px;
     border-radius: 10px;
     border: 3px solid var(--marrom-contorno);
-    /* box-shadow: 5px 5px var(--marrom-contorno); */
 }
 
 #selo-rodape img{
@@ -221,9 +233,6 @@ footer {
     color: var(--creme);
     margin-left: 40px;
     margin-bottom: 30px;
-    /* display: flex;
-    position:fixed;
-    top:275px; */
 }
 
 #selo-rodape {
@@ -268,7 +277,6 @@ footer {
 
 #menu-cardapio {
     display: flex;
-    /* justify-content:space-around; */
     list-style: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
