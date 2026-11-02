@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px; 
+  padding: 10px; 
   background-color: #fff8ef;
   
 }
@@ -77,10 +77,7 @@
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin-right: 20px;
     background-color: var(--fundo-da-pagina);   
  }
 
@@ -213,10 +210,13 @@ header::before {
     color: var(--vermelho-primenta);
 }
 
-  .banner img {
-    display: block;
+.banner-drinks{
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
     width: 100%;
-    height: auto;
+    height: 100%;
 
 }
 
@@ -227,5 +227,6 @@ header::before {
     padding: 10px;
     background-color: var(--branco);
 }
+
 /* fim gaby*/
 
