@@ -222,7 +222,7 @@ header::before {
 }
 
 .duas_colunas summary {
-    border: 2px solid var(--marrom-contorno);
+    
 
 }
 .engloba-conteudo{
@@ -261,11 +261,39 @@ summary{
     font-weight: bold;
 
 }
-.form-sac input [ type="text],
+.form-sac input[type="text"],
+.form-sac input[type="email"],
 .form-sac select,
-.form-sac texturea {
+.form-sac textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #7A3E12;
     border-radius: 8px;
+}
+
+.duas_colunas summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-sac button {
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+    border: 2px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px  var(--marrom-contorno);
+}
+
+.form-sac button:hover{
+    background-color:  var(--vermelho-primenta);
+
+}
+
+.outros-canais{
+    background-color: var(--creme);
+
 }
