@@ -194,14 +194,25 @@ header::before {
     padding: 10px; /* margem de dentro */
    }
  
-    .vaga-card {   /* quem vai receber o card */
+    .vaga-card {
        background-color: var(--branco); /* cor de fundo do card */
        border: 2px solid var(--marrom-contorno);
        border-radius: 20px; /* arredondamento das bordas */
        margin-bottom: 20px; /* espaçamento entre os cards do lado de fora*/
-       max-width: 100%;  /* 100% para o card ocupar a coluna interia */
+       max-width: 90%;  /* 100% para o card ocupar a coluna interia */
        position: relative; /*posição relativa para permitir o poscionamento do status vaga*/
 
+    }
+
+    .card-rh {
+        border-radius: 20px; 
+        background-color: var(--verde-escuro); 
+        color: var(--branco); 
+        max-width: 90%; 
+    }
+    
+    .text-rh { /* cor titulo e-mail do rh */
+        color: var(--dourado-aureola); /* cor do titulo do card RH */
     }
 
     .titulos-vagas-candidatura {  /* Estilização dos titulo */
@@ -211,7 +222,7 @@ header::before {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
-   .vaga-cargo {    /* estilizção do card de cargo */
+   .vaga-cargo {    /* estilização dos titulos de cargo */
         font-size: 18px;   
         font-weight: bold;     /* negrito */
         font-family: Georgia, serif;    /* tipo da fonte */
@@ -236,24 +247,13 @@ header::before {
         font-weight: bold;
     }
 
-    .card-rh {
-        border-radius: 20px; 
-        background-color: var(--verde-escuro); 
-        color: var(--branco); 
-        max-width: 100%; 
-    }
-
-    .text-rh { /* cor titulo e-mail do rh */
-        color: var(--dourado-aureola); /* cor do titulo do card RH */
-    }
-
-
         .form-candidatura {  /* card da candidatura */
         border: 2px solid var(--marrom-contorno); /* borda e a caracteristica de como fica a borda */
         border-radius: 20px; /* arredondamento da borda do card */
         box-shadow: 4px 4px 0 var(--marrom-contorno); /* sombra do card */ 
         background-color: #FFFFFF;
-        max-width: 100%;
+        max-width: 90%;
+        min-height: 700px; /* tamanho na vertical do card */
         margin: 0px; /*espaçamento de fora */
         padding: 24px; /* espaçamento de dentro */
     }
@@ -284,7 +284,7 @@ header::before {
     .card-nome {
         border: 2px solid var(--marrom-contorno); /* borda e a caracteristisca de como fica a borda */
         border-radius: 8px; /* arredondamento da borda do card */
-        width: 100%; /* largura do card */
+        width: 90%; /* largura do card */
         color: var(--marrom-contorno);
     }
     
@@ -319,12 +319,13 @@ header::before {
     }
 
     .card-sobre-voce {
-        width: 100%;
+        width: 90%;
         height: 100px;
         padding: 10px;
         box-sizing: border-box;
         resize: none;
         color: var(--marrom-contorno);
+        min-height: 250px
     }
 
     .card-nome::placeholder, /* placeholder para adicionar a cor do texto dentro do card */
