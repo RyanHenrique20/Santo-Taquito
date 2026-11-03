@@ -45,7 +45,7 @@
 
         <h2> Dados da reserva </h2>
         
-        <form> 
+        <form id="reservas-form">
     
             <div class="reservas-campo">
                 <label for="nome">Nome completo:</label>
@@ -67,7 +67,6 @@
     </div>
 
             
-    
 <div class="reservas-linha-campos">
                 <div class="reservas-campo">
                 <label for="unidade">Unidade:</label>
@@ -125,6 +124,13 @@
 
             <input type="submit" class="reservas-botao" value="CONFIRMAR RESERVA">
         </form>
+
+            <div id="reservas-confirmacao" hidden>
+    <h2 tabindex="-1" id="reservas-confirmacao-titulo">
+        Reserva confirmada! </h2>
+    <p>Obrigado por escolher o Santo Taquito!</p>
+            </div>
+
     </section>
 
 
@@ -194,7 +200,7 @@
         </div>
     </footer>
 
-    
+    <script src="../js/reservas.js"></script>
 
 </body>
 </html>

@@ -351,4 +351,19 @@ header::before {
     font-size: 13px;
 }
 
+/* Mensagem de confirmação da reserva */
+#reservas-confirmacao {
+    text-align: center;
+    padding: 24px 0;
+}
+
+#reservas-confirmacao h2 {
+    color: var(--verde-escuro);
+    margin-bottom: 16px;
+}
+
+#reservas-confirmacao p {
+    color: var(--marrom-texto);
+    line-height: 1.5;
+}
 /* fim Murilo */
