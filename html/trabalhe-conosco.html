@@ -34,28 +34,28 @@
         </nav>
     </div>
     
-    <div>
-        <img src="../img/banner-trabalhe-conosco-com-texto.png" alt="Banner com fundo de raios amarelos e creme.À esquerda,o texto'Faça parte da equipe' com o titulo em verde,'trabalhe conosco'em vermelho,com um covite para  enviar o curriculo para rh@santotaquito.com.br ou preencher o formulario" width="100%" >
+    <div class="banner-img">
+        <img src="../img/banner-trabalhe-conosco-com-texto.png" alt="Banner com fundo de raios amarelos e creme.À esquerda,o texto'Faça parte da equipe' com o titulo em verde,'trabalhe conosco'em vermelho,com um covite para  enviar o curriculo para rh@santotaquito.com.br ou preencher o formulario" >
     </div>
 
     <section class="vagas"> 
         <div class="coluna-vagas">
-            <h2  class="titulos-vagas-candidatura">Vagas Abertas</h2>
+            <h1  class="titulos-vagas-candidatura">Vagas Abertas</h1>
 <!--Card 1: Garçom / Garçonete-->
                 <div class="vaga-card">
-                    <h3 class="vaga-cargo">Garçom / Garçonete</h3>
+                    <h2 class="vaga-cargo">Garçom / Garçonete</h2>
                     <p class="vaga-local">Tatuape e Paulista </p>
                     <span class="vaga-status">ABERTA</span>
                 </div>
     <!--Card 2: Cozinheiro(a)-->
                 <div class="vaga-card">
-                    <h3 class="vaga-cargo">Cozinheiro(a)</h3>
+                    <h2 class="vaga-cargo">Cozinheiro(a)</h2>
                     <p class="vaga-local">Pinheiros</p>
                     <span class="vaga-status">ABERTA</span>
                 </div>
     <!--Card 3: Bartener-->    
                 <div class="vaga-card">
-                    <h3 class="vaga-cargo">Bartender</h3>
+                    <h2 class="vaga-cargo">Bartender</h2>
                     <p class="vaga-local">Todas as unidades</p>
                     <span class="vaga-status">ABERTA</span>
                 </div>
@@ -70,7 +70,7 @@
         </div>
     <!--Formulario de candidatura-->
             <div class="form-candidatura">
-                <h2 class="titulos-vagas-candidatura">Envie sua candidatura</h2>
+                <h3 class="titulos-vagas-candidatura">Envie sua candidatura</h3>
                 <form>
                     <label for="nome">Nome Completo:</label><br>
                     <input class="card-nome" type="text" id="nome" name="nome" placeholder="Seu nome"><br>
@@ -83,7 +83,7 @@
             
                 <div class="campo">  
                     <label for="telefone">Telefone:</label>
-                    <input class="card-telefone" type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000"required>
+                    <input class="card-telefone" type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000" required>
                 </div>
             </div>
                      
@@ -98,8 +98,8 @@
                     </select>
                 </div>
                 <div class="campo">  <!--campo das unidades-->     
-                    <label for="Unidade">Unidades:</label>
-                    <select class="card-unidades"id="Unidades" name="Unidade" required>
+                    <label for="Unidades">Unidades:</label>
+                    <select class="card-unidades" id="Unidades" name="Unidade" required>
                         <option value="">Qualquer uma</option>
                         <option>Tatuapé</option>
                         <option>Paulista</option>
@@ -109,11 +109,11 @@
             </div>
                     <br>
                     <label for="curriculo">Currículo (PDF):</label><br>
-                    <input class="card-curriculo"type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
+                    <input class="card-curriculo" type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
                     <br>
                 <div>
-                      <label for="sobre-voce">Conte um pouco sobre você:</label><br>
-                      <textarea class="card-sobre-voce" id="sobre" name="sobr" placeholder="Experiência, disponibilidade..." required></textarea>  <!--textarea para aceitar texto longo-->
+                      <label for="sobre">Conte um pouco sobre você:</label><br>
+                      <textarea class="card-sobre-voce" id="sobre" name="sobre" placeholder="Experiência, disponibilidade..." required></textarea>  <!--textarea para aceitar texto longo-->
                 </div>   
                     <input class="enviar-candidatura" type="submit" value="Enviar Candidatura">   
                 </form>

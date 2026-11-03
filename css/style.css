@@ -184,7 +184,10 @@ header::before {
 }
 
  /* trabalhe-conosco victor */
-
+   .banner-img img {
+    width: 100%;
+   }
+   
    .vaga-card,
    .card-rh,
    .form-candidadura {
