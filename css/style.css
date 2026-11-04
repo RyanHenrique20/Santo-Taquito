@@ -204,7 +204,7 @@ header::before {
     justify-content: space-between; /*deixa as imagens no começo, meio e fim*/
 }
 
-.card2{
+.card1{
     border:#7A3E12 solid 2px; /*deixa a borda sólida*/
     border-radius: 24px; /*deixa a borda arredondada*/
     box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
@@ -214,7 +214,7 @@ header::before {
     min-height: 460px; /*define a altura mínima do elemento.*/
    
 }
-.card3{
+.card2{
     border:#9E2E22 2px; /*deixa a borda sólida*/
     border-radius: 24px; /*deixa a borda arredondada*/
     box-shadow:#9E2E22 5px 6px 0 0; /*sombra da borda*/
