@@ -45,27 +45,27 @@
                 <h1>Perguntas Frequentes</h1>
                 <details>
                     <summary>Posso fazer pedidos pelo site?</summary>
-                    <p>Não. O site é so para reservas de Mesas, os pedidos são feitos pelo salaõ.</p>
+                    <p>Não. O site é só para reservas de mesas, os pedidos são feitos pelo salão.</p>
                 </details>
                 <details>
-                    <summary>Quanto tempo de tolerancia na reserva?</summary>
-                    <p>A reserva é mantida por 15 minutos apos o horario marcado</p>
+                    <summary>Quanto tempo de tolerância na reserva?</summary>
+                    <p>A reserva é mantida por 15 minutos após o horario marcado</p>
                 </details>
                 <details>
-                    <summary>O open drinks inclui bebidas sem alcool? </summary>
-                    <p>Sim temos opções não alcolicas inclusas</p>
+                    <summary>O open drinks inclui bebidas sem álcool? </summary>
+                    <p>Sim, temos opções não alcoólicas inclusas</p>
                 </details>
                 <details>
-                    <summary>tem opção vegetariana?</summary>
-                    <p>Sim, temos pratos vegetarianos no cardapio</p>
+                    <summary>Tem opção vegetariana?</summary>
+                    <p>Sim, temos pratos vegetarianos no cardápio</p>
                 </details>
                 <details>
                     <summary>Aceitam animais de estimação?</summary>
-                    <p>Sim, somos Pet friendly em todas as unidades </p>
+                    <p>Sim, somos pet friendly em todas as unidades </p>
                 </details>
 
                 <aside class="outros-canais">
-                    <h2>Outro canais</h2>
+                    <h2>Outros canais</h2>
                     <p>sac@santotaquito.com.br - (11) 0000-0000</p>
                 </aside>
             </section>
@@ -73,32 +73,40 @@
 
 
             <section class="content-sac">
-                <h1>Fale com a gente</h1>
+                <h2>Fale com a gente</h2>
 
                 <form action="#" method="post"  class="form-sac">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="Nome" placeholder="voce@email.com" required>
+                    <input type="text" id="nome" name="Nome"
+                     placeholder="Seu Nome" required>
+
+                     <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" 
+                     placeholder="voce@email.com" required>
 
                     <label for="unidade">Unidade</label>
                     <select id="unidade" name="unidade">
                         <option value="tatuape">Tatuapé</option>
-                        <option value="palista">Palista</option>
+                        <option value="paulista">Paulista</option>
                         <option value="Pinheiros">Pinheiros</option>
                     </select>
 
-                    <fieldset>
-                        <legend>Assunto</legend>
-                        <input type="radio" id="assunto-duvida" name="assunto" value="duvida" checked>
-                        <label for="assunto-duvida">Dúvida</label>
+                    <fieldset class="assuntos">
 
-                        <input type="radio" id="assunto-reclamacao" name="assunto" value="reclamacao">
-                        <label for="assunto-reclamacao">Reclamação</label>
+                        <legend><strong>Assuntos</strong></legend>
 
-                        <input type="radio" id="assunto-elogio" name="assunto" value="elogio">
-                        <label for="assunto-elogio">Elogio</label>
+                            <input type="radio" id="assunto-duvida" name="assunto" value="duvida" checked>
+                            <label for="assunto-duvida">Dúvida</label>
 
-                        <input type="radio" id="assunto-sugestao" name="assunto" value="sugestao">
-                        <label for="assunto-sugestao">Sugestão</label>
+                            <input type="radio" id="assunto-reclamacao" name="assunto" value="reclamacao">
+                            <label for="assunto-reclamacao">Reclamação</label>
+
+                            <input type="radio" id="assunto-elogio" name="assunto" value="elogio">
+                            <label for="assunto-elogio">Elogio</label>
+
+                            <input type="radio" id="assunto-sugestao" name="assunto" value="sugestao">
+                            <label for="assunto-sugestao">Sugestão</label>
+
                     </fieldset>
 
                     <label for="mensagem">Mensagem</label>

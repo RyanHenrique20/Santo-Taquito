@@ -282,7 +282,7 @@ footer {
 
 
 .content-sac h1 , .duas_colunas h1 {
-    color: var(--vermelho-primenta);
+    color: var(--vermelho-pimenta);
 }
 
 .form-sac {
@@ -506,14 +506,75 @@ header::before {
     justify-content: space-evenly;
 }
 
+/* bernardo SAC */
 .duas_colunas details , .outros-canais {
-    border: 2px solid var(--marrom-contorno);
-    border-radius:10px;
-    padding:25px;
+    border: 2px solid var(--marrom-contorno); 
+    border-radius:10px; /* deixa arredondado a borda aredondada */
+    padding:25px; /* da um espaço */
+}
+
+.engloba-conteudo{
+    display: grid; /* duas colunas lado a lado */
+    grid-template-columns: 1fr 1fr; /* cria duas colunas do mesmo tamanho*/
+    gap: 24px; /* deixa um espaço entre as colunas */
+    padding: 24px;
+}
+
+.duas_colunas,
+.content-sac {
+    background-color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+
+}
+
+.duas_colunas details {
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 12px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+}
+
+summary{
+    cursor: pointer; /* faz aparecer a mão*/
+    font-weight: bolder; /* deixa destacado */
+
+}
+
+.form-sac label{
+    display: block; /*empilha organizado*/
+    margin-top: 12px; /* da um espaço e manda para baixo*/
+    font-weight: bold;
+
+}
+.form-sac input[type="text"],
+.form-sac input[type="email"],
+.form-sac select {
+    width: 95%;
+    padding: 10px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
 }
 
 .duas_colunas summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-sac button {
+    background-color: var(--vermelho-pimenta);
+    color: var(--branco);
     border: 2px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-weight: bold; /* grossura das letras*/
+    cursor: pointer;
+    box-shadow: 4px 4px  var(--marrom-contorno); /* sobrombra */
 }
  
     /* início João */
@@ -681,7 +742,7 @@ header::before {
 
 .drink p b {
     font-size: 24px;
-    color: var(--vermelho-primenta);
+    color: var(--vermelho-pimenta);
 }
 
 .banner-drinks{
@@ -695,6 +756,73 @@ header::before {
 }
 
 .card-drinks {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-weight: bold; /* grossura das letras*/
+    cursor: pointer;
+    box-shadow: 4px 4px  var(--marrom-contorno); /* sobrombra */
+}
+
+.form-sac button:hover{
+    background-color:  var(--vermelho-escuro); /* escurece o botão quando clica*/
+
+}
+
+.outros-canais {
+    background-color: var(--creme);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+}
+
+
+
+.assuntos {
+    margin-top: 40px;
+    border: none
+}
+
+.assuntos input {
+    display: none;
+}
+
+.assuntos label {
+    display: inline-block; /* respeita o tamanho e deixa do lado */
+    background-color: var(--creme);
+    border: 2px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 8px 12px; /* espaço de dentro*/
+    margin: 4px; /* espaço de fora */
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.assuntos input:checked + label { /* faz ficar amarelado*/
+    background-color:var(--dourado-aureola);
+
+}
+
+.assuntos label:hover{ /* muda de cor quando passa por cima*/
+    background-color: var(--amarelo-tordilha);
+}
+
+.content-sac h2, .duas_colunas h2
+{
+    color: var(--vermelho-pimenta)
+}
+
+
+.assuntos label {
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+}
+
+
+.form-sac textarea {
+    width: 80%;
+    box-sizing: border-box;
     border: 3px solid var(--marrom-contorno);
     border-radius: 20px;
     box-shadow: 5px 5px var(--marrom-contorno);
@@ -920,14 +1048,14 @@ header::before {
 .reservas-pagina h1 {
     font-family: "DejaVu Serif", Georgia, serif;
     font-size: 44px;
-    color: var(--vermelho-primenta);
+    color: var(--vermelho-pimenta);
     margin: 0 0 12px;
 }
 
 .reservas-formulario h2 {
     font-family: "DejaVu Serif", Georgia, serif;
     font-size: 30px;
-    color: var(--vermelho-primenta);
+    color: var(--vermelho-pimenta);
     margin: 0 0 20px;
 }
 
@@ -955,3 +1083,5 @@ header::before {
     line-height: 1.5;
 }
 /* fim Murilo */
+}
+/* bernardo SAC */
