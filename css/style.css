@@ -211,7 +211,7 @@ header::before {
     padding: 30px; /*espaçamento (interno)*/
     padding-inline: 20px; /*espaçamento nas laterais (interno)*/
     background-color:#FFFFFF; /*cor de fundo*/
-    min-height: 460px; /*define a altura mínima do elemento.*/
+    min-height: 460px; /*define a altura mínima do card.*/
    
 }
 .card2{
