@@ -96,7 +96,8 @@ body {
     width: 100%;
 }
 
-#banner-contato {
+
+ #banner-contato {
     border-radius: 20px;
     margin-top: 5px;
     border-style: solid;
@@ -142,6 +143,14 @@ header {
 .content-unidades h2 {
     display: flex;
 }
+/* bruno orçamento */
+#banner-orcamento {
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
+    width: 100%;
+ }
 
 .content-orcamento {
     padding: 70px;
@@ -153,11 +162,26 @@ header {
     border: solid 3px var(--marrom-contorno);
     border-radius: 20px;
     box-shadow: 5px 5px var(--marrom-contorno);
-    background-color: var(--creme);
+    background-color: var(--branco);
     width: 20%;
     padding: 20px;
 }
 
+h1, h2, h3, h4 {
+    text-align: center;
+    color: var(--vermelho-pimenta);
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+
+p {
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
+}
+.cor-h2-orcamento {
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
+}
+/* fim bruno orçamento */
 .content-contato {
     padding: 50px;
     display: flex;
@@ -202,7 +226,6 @@ footer {
     margin-top: 5px;
     border-radius: 10px;
     border: 3px solid var(--marrom-contorno);
-    /* box-shadow: 5px 5px var(--marrom-contorno); */
 }
 
 #selo-rodape img {
@@ -259,6 +282,12 @@ footer {
     margin-top: 4px;
 }
 
+#menu-cardapio {
+    display: flex;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
 
 .container-menu-cardapio {
     margin-top: 20px;
