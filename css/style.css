@@ -223,7 +223,6 @@ header::before {
     width: 200px; /*tamanho do item*/
     color:#FFF4D6;
     margin: auto; /*espaçamento para centralizar (externo)*/
-    margin-top: 0px; /*espaçamento pra cima (externo)*/
     margin-bottom: 20px; /*espaçamento pra baixo (externo)*/
 }
 
