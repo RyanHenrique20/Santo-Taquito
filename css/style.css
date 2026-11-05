@@ -199,6 +199,10 @@ header::before {
     display: block;
     width: 100%;
     height: auto;
+    border: 2px solid var(--marrom-contorno);
+    border-radius:20px;
+    margin-top:5px;
+    
 }
 
 /* Ajusta o trecho do texto, alinhando ele a direita do formulário*/
