@@ -231,11 +231,7 @@ p {
     outline: 2px solid var(--verde-moldura);
     outline-offset: 3px;
 }
-h1, h2 {
-    text-align: center;
-    color: var(--vermelho-pimenta);
-    font-family: "DejaVu Serif", Georgia, serif;
-}
+
 p {
     font-family: "DejaVu Serif", Georgia, serif;
     color: var(--marrom-texto);
