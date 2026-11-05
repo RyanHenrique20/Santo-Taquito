@@ -762,6 +762,8 @@ summary{
     font-weight: bold; /* grossura das letras*/
     cursor: pointer;
     box-shadow: 4px 4px  var(--marrom-contorno); /* sobrombra */
+    background-color: var(--branco);
+    border: 2px solid var(--marrom-contorno);
 }
 
 .form-sac button:hover{
@@ -1082,6 +1084,4 @@ summary{
     color: var(--marrom-texto);
     line-height: 1.5;
 }
-/* fim Murilo */
-}
-/* bernardo SAC */
+
