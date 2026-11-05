@@ -73,40 +73,38 @@
 
 
             <section class="content-sac">
-                <h2>Fale com a gente</h2>
+                <h2 id="sac-titulo">Fale com a gente</h2>
 
-                <form action="#" method="post"  class="form-sac">
+                <form id="formSac" action="#" method="post" class="form-sac">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="Nome"
-                     placeholder="Seu Nome" required>
+                    <input type="text" id="nome" name="nome"
+                     placeholder="Seu nome" required>
 
-                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" 
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email"
                      placeholder="voce@email.com" required>
 
                     <label for="unidade">Unidade</label>
                     <select id="unidade" name="unidade">
                         <option value="tatuape">Tatuapé</option>
                         <option value="paulista">Paulista</option>
-                        <option value="Pinheiros">Pinheiros</option>
+                        <option value="pinheiros">Pinheiros</option>
                     </select>
 
                     <fieldset class="assuntos">
-
                         <legend><strong>Assuntos</strong></legend>
 
-                            <input type="radio" id="assunto-duvida" name="assunto" value="duvida" checked>
-                            <label for="assunto-duvida">Dúvida</label>
+                        <input type="radio" id="assunto-duvida" name="assunto" value="duvida" checked>
+                        <label for="assunto-duvida">Dúvida</label>
 
-                            <input type="radio" id="assunto-reclamacao" name="assunto" value="reclamacao">
-                            <label for="assunto-reclamacao">Reclamação</label>
+                        <input type="radio" id="assunto-reclamacao" name="assunto" value="reclamacao">
+                        <label for="assunto-reclamacao">Reclamação</label>
 
-                            <input type="radio" id="assunto-elogio" name="assunto" value="elogio">
-                            <label for="assunto-elogio">Elogio</label>
+                        <input type="radio" id="assunto-elogio" name="assunto" value="elogio">
+                        <label for="assunto-elogio">Elogio</label>
 
-                            <input type="radio" id="assunto-sugestao" name="assunto" value="sugestao">
-                            <label for="assunto-sugestao">Sugestão</label>
-
+                        <input type="radio" id="assunto-sugestao" name="assunto" value="sugestao">
+                        <label for="assunto-sugestao">Sugestão</label>
                     </fieldset>
 
                     <label for="mensagem">Mensagem</label>
@@ -114,6 +112,11 @@
 
                     <button type="submit">Enviar mensagem</button>
                 </form>
+
+                <div id="sac-confirmacao" hidden>
+                    <h2 tabindex="-1" id="sac-confirmacao-titulo">Mensagem recebida!</h2>
+                    <p>Obrigado por falar com o Santo Taquito! Nossa equipe vai responder no seu e-mail em breve.</p>
+                </div>
             </section>
         </main>
 
@@ -154,6 +157,7 @@
                 </p>
             </div>
     </footer>
+    <script src="../js/sac.js"></script>
 
     </body>
 </html>

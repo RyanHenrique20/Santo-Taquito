@@ -390,6 +390,11 @@ footer {
     display: grid;
 }
 
+/* Esconde o formulário do SAC quando ele tiver hidden */
+.form-sac[hidden] {
+  display: none;
+}
+
 .rodape-site li,
 .rodape-atendimento li,
 .rodape-contato li {
