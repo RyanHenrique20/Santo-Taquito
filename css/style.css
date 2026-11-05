@@ -510,9 +510,11 @@ header::before {
  
     /* início João */
 
-.borda{
-    border-radius: 20px; /*raio de borda das imagens*/
-    box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
+.banner-promocoes{
+    border-radius: 20px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: var(--marrom-contorno);
 }
 
 .margemc{
@@ -551,9 +553,11 @@ header::before {
     margin-bottom: 20px; /*espaçamento pra baixo (externo)*/
 }
 
-.banner{
-    margin-top: 5px;  /*espaçamento pra cima (externo)*/
-    padding-left: 5px; /*espaçamento para a esquerda (interno)*/
+.borda-promocao{
+    border: 2px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
 }   
     /* Fim João */
 
