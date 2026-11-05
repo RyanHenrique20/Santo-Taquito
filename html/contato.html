@@ -59,9 +59,9 @@
                     <p>sac@santotaquito.com.br</p>
                 </div>
                 <div class="card-contato">
-                    <h2>SOLICITE SEU ORÇAMENTO</h2>
-                    <P><strong>Preencha o formulário abaixo e nossa equipe entrará em contato com você!</strong></P>
-                    <form class="form-contato" action="/enviar" autocomplete="off" method="post">
+                    <form id="formContato" class="form-contato" action="/enviar" autocomplete="off" method="post">
+                        <h2>SOLICITE SEU ORÇAMENTO</h2>
+                        <p><strong>Preencha o formulário abaixo e nossa equipe entrará em contato com você!</strong></p>
                         <label for="cname" class="contato-label">Nome Completo*</label><br>
                         <input type="text" id="cname" name="cname" placeholder="Digite seu nome completo" required><br>
                         <label for="cemail" class="contato-label">E-mail*</label><br>
@@ -71,7 +71,7 @@
                         <label for="cemp" class="contato-label">Empresa/ Negocio</label><br>
                         <input type="text" id="cemp" name="cemp" placeholder="Digite o nome da sua empresa ou negócio" ><br>
                         <br>
-                        <label class="contato-label" class="contato-label">Tipo de site</label><br>
+                        <label class="contato-label">Tipo de site</label><br>
                         <input type="checkbox" id="cloja" name="cloja" value="loja-virtual">
                         <label for="cloja" class="contato-label">Loja Virtual/ e-Commerce</label>
                         <input type="checkbox" id="site" name="site" value="site-institucional">
@@ -124,8 +124,12 @@
                         <br>
                         <textarea id="cmsg" name="cmsg" placeholder="Digite aqui uma descrição do seu projeto" rows="10" cols="50" required></textarea><br>
                         <input class="botao-form-contato" type="submit" value="Enviar">
-                        <P><strong>Campos marcados com * são obrigatórios.</strong></P>
+                        <p><strong>Campos marcados com * são obrigatórios.</strong></p>
                     </form>
+                    <div id="contato-confirmacao" hidden>
+                        <h2 tabindex="-1" id="contato-confirmacao-titulo">Contato recebido!</h2>
+                        <p>Obrigado por entrar em contato com o Santo Taquito!</p>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -215,6 +219,7 @@
            </p>
         </div>
     </footer>
+    <script src="../js/contato.js"></script>
     
 </body>
 </html>
