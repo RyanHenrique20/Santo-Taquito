@@ -186,6 +186,10 @@ header::before {
  /* trabalhe-conosco victor */
    .banner-img img {
     width: 100%;
+    border: 2px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    margin-top: 10px;
    }
    
    .vaga-card,
