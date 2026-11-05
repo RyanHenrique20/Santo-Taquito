@@ -100,6 +100,13 @@ body {
     border-color: var(--marrom-contorno);
     width: 100%;
     height: 100%;
+    margin: 0;
+    background-color: var(--fundo-da-pagina);
+    margin-right: 20px;   
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
  }
 
 header {
@@ -157,15 +164,18 @@ header {
 
 footer {
     background-color: var(--marrom-texto);
-    height: 220px;
+    height: auto;
+    min-height: 220px;
     border-radius: 20px;
     border: 3px solid var(--marrom-contorno);
     box-shadow: 5px 5px var(--marrom-contorno);
+    margin-top: auto;
+    
 }
 
 .copy-rodape {
     margin: 0 auto;
-    height: 80%;
+    padding: 12px 0;
     width: 90%;
     border-top: 3px solid var(--marrom-contorno);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -194,9 +204,7 @@ footer {
     color: var(--creme);
     margin-left: 40px;
     margin-bottom: 30px;
-    /* display: flex;
-    position:fixed;
-    top:275px; */
+
 }
 
 #selo-rodape {
@@ -763,3 +771,187 @@ header::before {
 }
   /* fim raffa */
 
+/* Começo Murilo */
+/* Ajusta a localização do formulário na pagina*/
+.reservas-pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.reservas-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--marrom-contorno);
+    border-radius:20px;
+    margin-top:5px;
+    
+}
+
+/* Ajusta o trecho do texto, alinhando ele a direita do formulário*/
+.reservas-layout {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start
+}
+
+/*Ajustou todo o campo formulário, adicionando bordas mais refinadas, cor de fundo, efeito sombra e centralizando corretamente com a página.*/
+.reservas-formulario {
+    flex: 3;
+    min-width: 0;
+    background-color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 4px 4px var(--marrom-contorno);
+}
+/*centralizou as tabelas umas nas outras*/
+.reservas-informacoes {
+    flex: 2;
+    min-width: 0;
+}
+
+.reservas-formulario .reservas-campo {
+    margin-bottom: 16px;
+}
+
+.reservas-formulario .reservas-campo label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--marrom-texto);
+    font-weight: bold;
+}
+
+.reservas-formulario .reservas-campo input,
+.reservas-formulario .reservas-campo select,
+.reservas-formulario .reservas-campo textarea {
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 8px;
+    background-color: var(--branco);
+    color: var(--marrom-texto);
+    font-family: inherit;
+}
+
+/*contorno botao*/
+/* Contorno dos campos em foco */
+.reservas-formulario .reservas-campo input:focus,
+.reservas-formulario .reservas-campo select:focus,
+.reservas-formulario .reservas-campo textarea:focus {
+    outline: 2px solid var(--verde-escuro);
+    outline-offset: 2px;
+}
+
+.reservas-formulario .reservas-linha-campos {
+    display: flex;
+    gap: 16px;
+}
+
+.reservas-formulario .reservas-linha-campos .reservas-campo {
+    flex: 1;
+    min-width: 0;
+}
+
+.reservas-formulario .reservas-botao {
+    background-color: var(--vermelho-pimenta);
+    color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 24px;
+    padding: 12px 20px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Muda a cor do botão ao passar o mouse */
+.reservas-formulario .reservas-botao:hover {
+    background-color: var(--vermelho-escuro);
+}
+/*contorno botao*/
+.reservas-formulario .reservas-botao:focus-visible {
+    outline: 2px solid var(--verde-escuro);
+    outline-offset: 4px;
+}
+
+.reservas-informacoes .reservas-cartao-como-funciona {
+    background-color: var(--creme);
+    color: var(--marrom-texto);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    
+}
+
+.reservas-informacoes .reservas-cartao-grupos {
+    background-color: var(--branco);
+    color: var(--marrom-texto);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+}
+
+.reservas-informacoes .reservas-cartao-aniversariante {
+    background-color: var(--amarelo-tordilha);
+    color: var(--marrom-texto);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    text-align: center;
+}
+
+/* Fonte e cor do conteúdo da página de reservas */
+.reservas-pagina {
+    font-family: "DejaVu Sans", Arial, sans-serif;
+    color: var(--marrom-texto);
+}
+
+
+.reservas-pagina h1 {
+    font-family: "DejaVu Serif", Georgia, serif;
+    font-size: 44px;
+    color: var(--vermelho-primenta);
+    margin: 0 0 12px;
+}
+
+.reservas-formulario h2 {
+    font-family: "DejaVu Serif", Georgia, serif;
+    font-size: 30px;
+    color: var(--vermelho-primenta);
+    margin: 0 0 20px;
+}
+
+.reservas-informacoes section h2 {
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+
+.reservas-formulario .reservas-campo label {
+    font-size: 13px;
+}
+
+/* Mensagem de confirmação da reserva */
+#reservas-confirmacao {
+    text-align: center;
+    padding: 24px 0;
+}
+
+#reservas-confirmacao h2 {
+    color: var(--verde-escuro);
+    margin-bottom: 16px;
+}
+
+#reservas-confirmacao p {
+    color: var(--marrom-texto);
+    line-height: 1.5;
+}
+/* fim Murilo */
