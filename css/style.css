@@ -230,11 +230,12 @@ header::before {
 }
 
 .duas_colunas,
-.content-sac{
-    background-color: #FFFFFF; /* cor de fundo*/
-    border: 2px solid #7A3E12; /* tipo da linha arredondada e marrom*/
-    border-radius: 16px;
+.content-sac {
+    background-color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
     padding: 24px;
+    box-shadow: 5px 5px var(--marrom-contorno);
 
 }
 
@@ -279,7 +280,7 @@ summary{
     border: 2px solid var(--marrom-contorno);
     border-radius: 20px;
     padding: 10px 20px;
-    margin-top: 16px;
+    margin-top: 40px;
     font-weight: bold; /* grossura das letras*/
     cursor: pointer;
     box-shadow: 4px 4px  var(--marrom-contorno); /* sobrombra */
@@ -298,6 +299,7 @@ summary{
 
 
 .assuntos {
+    margin-top: 40px;
     border: none
 }
 
@@ -329,5 +331,14 @@ summary{
 .content-sac h2, .duas_colunas h2
 {
     color: var(--vermelho-primenta)
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin-bottom: 0;
 }
 /* bernardo SAC */
