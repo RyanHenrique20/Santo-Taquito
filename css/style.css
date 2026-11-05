@@ -233,7 +233,7 @@ p {
 }
 h1, h2 {
     text-align: center;
-    color: var(--vermelho-primenta);
+    color: var(--vermelho-pimenta);
     font-family: "DejaVu Serif", Georgia, serif;
 }
 p {
@@ -241,7 +241,7 @@ p {
     color: var(--marrom-texto);
 }
 .botao-form-contato {
-    background-color: var(--vermelho-primenta);
+    background-color: var(--vermelho-pimenta);
     color: var(--branco);
     border: 3px solid var(--marrom-contorno);
     border-radius: 24px;
