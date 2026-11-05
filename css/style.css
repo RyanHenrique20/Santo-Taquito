@@ -180,7 +180,7 @@ header {
     width: 40%;
     padding: 20px;
 }
-input[type="text"], input[type="email"], input[type="tel"], textarea {
+.form-contato input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -190,7 +190,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     box-sizing: border-box;
     font-family: "DejaVu Serif", Georgia, serif;
 }
-input[type="number"], input[type="date"] {
+.form-contato input[type="number"], input[type="date"] {
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 2px;
@@ -208,7 +208,7 @@ input[type="number"], input[type="date"] {
     font-family: "DejaVu Serif", Georgia, serif;
     color: var(--marrom-texto);
 }
-input:focus, textarea:focus {
+.form-contato input:focus, .form-contato textarea:focus {
     outline: 2px solid var(--verde-moldura);
     outline-offset: 3px;
 }
