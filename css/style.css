@@ -185,6 +185,11 @@ p {
 }
 /* fim bruno orçamento */
 /* bruno - contato */
+#contato-confirmacao {
+  text-align: center;
+  padding: 24px;
+}
+
 .content-contato {
     padding: 50px;
     display: flex;
