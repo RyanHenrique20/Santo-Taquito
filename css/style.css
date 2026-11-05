@@ -239,12 +239,12 @@ header::before {
 
 }
 
-details{
-    border: 1px solid #7A3E12;
-    border-radius: 10px;
-    padding: 10px 14px; /* 10xp cima e baixo, esquerda e direita*/
-    margin-bottom: 10px; /* deixa tudo para baixo */
-
+.duas_colunas details {
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 12px;
+    box-shadow: 5px 5px var(--marrom-contorno);
 }
 
 summary{
@@ -259,14 +259,14 @@ summary{
     font-weight: bold;
 
 }
-.form-sac input[type="text"], /* fala que é um texto normal*/
-.form-sac input[type="email"], /* faz entender que é um email*/
-.form-sac select,
-.form-sac textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #7A3E12;
-    border-radius: 8px;
+.form-sac input[type="text"],
+.form-sac input[type="email"],
+.form-sac select {
+    width: 95%;
+    padding: 10px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
 }
 
 .duas_colunas summary {
@@ -291,9 +291,11 @@ summary{
 
 }
 
-.outros-canais{
+.outros-canais {
     background-color: var(--creme);
-
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
 }
 
 
@@ -333,12 +335,19 @@ summary{
     color: var(--vermelho-primenta)
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+
+.assuntos label {
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
 }
 
-footer {
-    margin-bottom: 0;
+
+.form-sac textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--marrom-contorno);
+    padding: 10px;
 }
 /* bernardo SAC */
