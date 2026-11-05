@@ -66,6 +66,7 @@
     margin-right: 40px;
     width: 125px;
     text-align: center;
+    font-family: "DejaVu Serif", Georgia, serif;
 }
 
 .btn-principal {
@@ -183,6 +184,7 @@ p {
     color: var(--marrom-texto);
 }
 /* fim bruno orçamento */
+/* bruno - contato */
 .content-contato {
     padding: 50px;
     display: flex;
@@ -193,10 +195,63 @@ p {
     border: solid 3px var(--marrom-contorno);
     border-radius: 20px;
     box-shadow: 5px 5px var(--marrom-contorno);
-    background-color: var(--creme);
+    background-color: var(--branco);
     width: 40%;
     padding: 20px;
 }
+.form-contato input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+.form-contato input[type="number"], input[type="date"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+.posicao {
+    display: flex;
+    gap: 10px;
+}
+.contato-label {
+    font-weight: bold;
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
+}
+.form-contato input:focus, .form-contato textarea:focus {
+    outline: 2px solid var(--verde-moldura);
+    outline-offset: 3px;
+}
+h1, h2 {
+    text-align: center;
+    color: var(--vermelho-primenta);
+    font-family: "DejaVu Serif", Georgia, serif;
+}
+p {
+    font-family: "DejaVu Serif", Georgia, serif;
+    color: var(--marrom-texto);
+}
+.botao-form-contato {
+    background-color: var(--vermelho-primenta);
+    color: var(--branco);
+    border: 3px solid var(--marrom-contorno);
+    border-radius: 24px;
+    padding: 12px 20px;
+    box-shadow: 4px 4px 0 var(--marrom-contorno);
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* fim bruno */
 
 footer {
     background-color: var(--marrom-texto);
