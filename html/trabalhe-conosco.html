@@ -70,53 +70,64 @@
             </div>
         <!--Formulario de candidatura-->
                 <div class="form-candidatura">
-                    <h3 class="titulos-vagas-candidatura">Envie sua candidatura</h3>
-                    <form>
+                    <h3 class="titulos-vagas-candidatura" id="candidatura-titulo">Envie sua candidatura</h3>
+
+                    <form id="formCandidatura" class="form-trabalhe">
                         <label for="nome">Nome Completo:</label><br>
-                        <input class="card-nome" type="text" id="nome" name="nome" placeholder="Seu nome"><br>
+                        <input class="card-nome" type="text" id="nome" name="nome" placeholder="Seu nome" required><br>
                         <br>
-                <div class="telefone-email"> <!--deixa o telefone e e-mail lado a lado na linha-->
-                    <div class="campo">
-                        <label for="email">E-mail:</label>
-                        <input class="card-email" type="email" id="email" name="email" placeholder="voce@email.com" required>
-                    </div>
-                
-                    <div class="campo">  
-                        <label for="telefone">Telefone:</label>
-                        <input class="card-telefone" type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000" required>
-                    </div>
-                </div>
-                        
-                <div class="vagas-unidades"> <!--deixa o vagas e unidades lado a lado na linha-->
-                    <div class="campo">  <!--campo da vaga-->
-                        <label  for="vaga">Vagas:</label>
-                        <select class="card-vagas" id="vaga" name="vaga" required>
-                            <option value="">Selecione uma vaga</option>
-                            <option value="garcom">Garçom / Garçonete</option>
-                            <option value="cozinheiro">Cozinheiro(a)</option>
-                            <option value="bartender">Bartender</option>
-                        </select>
-                    </div>
-                    <div class="campo">  <!--campo das unidades-->     
-                        <label for="Unidades">Unidades:</label>
-                        <select class="card-unidades" id="Unidades" name="Unidade" required>
-                            <option value="">Qualquer uma</option>
-                            <option>Tatuapé</option>
-                            <option>Paulista</option>
-                            <option>Pinheiros</option>
-                        </select>
-                    </div>
-                </div>
+
+                        <div class="telefone-email"> <!--deixa o telefone e e-mail lado a lado na linha-->
+                            <div class="campo">
+                                <label for="email">E-mail:</label>
+                                <input class="card-email" type="email" id="email" name="email" placeholder="voce@email.com" required>
+                            </div>
+
+                            <div class="campo">
+                                <label for="telefone">Telefone:</label>
+                                <input class="card-telefone" type="tel" id="telefone" name="telefone" placeholder="(11) 00000-0000" required>
+                            </div>
+                        </div>
+
+                        <div class="vagas-unidades"> <!--deixa o vagas e unidades lado a lado na linha-->
+                            <div class="campo"> <!--campo da vaga-->
+                                <label for="vaga">Vagas:</label>
+                                <select class="card-vagas" id="vaga" name="vaga" required>
+                                    <option value="">Selecione uma vaga</option>
+                                    <option value="garcom">Garçom / Garçonete</option>
+                                    <option value="cozinheiro">Cozinheiro(a)</option>
+                                    <option value="bartender">Bartender</option>
+                                </select>
+                            </div>
+
+                            <div class="campo"> <!--campo das unidades-->
+                                <label for="unidades">Unidades:</label>
+                                <select class="card-unidades" id="unidades" name="unidade" required>
+                                    <option value="qualquer">Qualquer uma</option>
+                                    <option value="tatuape">Tatuapé</option>
+                                    <option value="paulista">Paulista</option>
+                                    <option value="pinheiros">Pinheiros</option>
+                                </select>
+                            </div>
+                        </div>
                         <br>
+
                         <label for="curriculo">Currículo (PDF):</label><br>
                         <input class="card-curriculo" type="file" id="curriculo" name="curriculo" accept=".pdf" required><br>
                         <br>
-                    <div>
-                        <label for="sobre">Conte um pouco sobre você:</label><br>
-                        <textarea class="card-sobre-voce" id="sobre" name="sobre" placeholder="Experiência, disponibilidade..." required></textarea>  <!--textarea para aceitar texto longo-->
-                    </div>   
-                        <input class="enviar-candidatura" type="submit" value="Enviar Candidatura">   
+
+                        <div>
+                            <label for="sobre">Conte um pouco sobre você:</label><br>
+                            <textarea class="card-sobre-voce" id="sobre" name="sobre" placeholder="Experiência, disponibilidade..." required></textarea> <!--textarea para aceitar texto longo-->
+                        </div>
+
+                        <input class="enviar-candidatura" type="submit" value="Enviar Candidatura">
                     </form>
+
+                    <div id="candidatura-confirmacao" hidden>
+                        <h3 tabindex="-1" id="candidatura-confirmacao-titulo" class="centralizacao">Candidatura enviada!</h3>
+                        <p>Obrigado pelo interesse em trabalhar no Santo Taquito! Nosso RH vai analisar seu currículo e entrar em contato pelo e-mail informado.</p>
+                    </div>
                 </div>     
             </section>
        </main>
@@ -157,8 +168,7 @@
            </p>
         </div>
     </footer>
-
-    
+    <script src="../js/trabalhe.js"></script>
 
 </body>
 </html>

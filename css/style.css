@@ -869,6 +869,11 @@ summary {
 /* Fim João */
 
 /* trabalhe-conosco victor */
+/* Esconde o formulário de candidatura quando ele tiver hidden */
+.form-trabalhe[hidden] {
+  display: none;
+}
+
 .banner-img img {
     width: 100%;
     border: 2px solid var(--marrom-contorno);
