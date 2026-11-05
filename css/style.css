@@ -208,5 +208,84 @@ header::before {
     #c0392b 66.66% 100%
   );
 }
+/* inicio raffa*/
+  
+.card-img{
+   border: 1px solid #7A3E12; /* espessura da borda*/
+   padding: 30px 35px 50px 13px; /* Garante que todos os elementos internos tenham uma distância segura das bordas */
+   margin: 5px 15px; /* ajusta tudo fora das bordas */
+   border-radius: 13px;  /* as pontas das bordas arredondadas*/
+   margin-bottom: 0 auto;   /* Centraliza horizontalmente */
+   border-radius: 24px;
+   box-shadow: 4px 4px 0px #7A3E12;
+   background-color:#FFFFFF;
+}
 
+.uni-botom{
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;     /* Centraliza na vertical */
+  height: 100vh;      
+} 
+ 
+
+.h-uni{
+  border-bottom: 1px solid #000;
+  background-color: #FFFFFF;
+  text-shadow: 2px 2px 5px #C0392B;
+}
+.tam-botao {
+  display: block;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 100%; /* Garante que ela não ultrapasse a largura do card */
+}
+
+.container-tags {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 15px;               /* Espaçamento entre as tags */
+  flex-wrap: wrap;         /* Quebra para a linha de baixo se faltar espaço */
+}
+
+.video-uni {
+    width: 700px;
+    max-width: px; /* faz com que o elemento não ultrapasse a largura*/
+    height: auto;     /* autoplay automatico*/
+    align-items: center;
+    margin: 25px;
+    border-radius: 24px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.card-display-video{
+    border: 1px solid #7A3E12; /* espessura da borda*/
+    padding: 5px 5px 100px; /* Garante que todos os elementos internos tenham uma distância segura das bordas */
+    margin: auto;
+    border-radius: 13px;  /* as pontas das bordas arredondadas*/ 
+    box-shadow: 4px 4px 0px #7A3E12;  /* adicionar efeito de sombra */
+    background-color:#FFFFFF; /*cor de fundo do card*/
+    width: 1000px;
+    height: 500px;
+    align-items: center; /*alinhar itens*/
+}
+.h1-uni{
+    margin-top: 50px; /* margem cima */
+   text-align: center; /*alinha texto*/
+   justify-content: center; /* Centraliza os itens horizontalmente */
+   font-size: 50px; /*tamanho da fonte*/
+   text-shadow: 2px 2px 5px #C0392B; /*aplicar sombra em um elemento*/
+   color:#C0392B; /*cor da palavra*/
+
+}
+.h2-uni{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #1F6B45;
+    border-radius: 13px;
+}
+.h2-01{
+    align: center;
+}
+  /* fim raffa */
 

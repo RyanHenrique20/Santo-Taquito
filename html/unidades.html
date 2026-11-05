@@ -6,74 +6,100 @@
     <title>Santo Taquito - Unidades</title>
     <!-- Link que carrega o CSS  -->
     <link rel="stylesheet" href="../css/style.css">
+    
 </head>
 <body>
 
     <!-- Cabeçalho -->
     <header>
-        <div class="content-group">
-            <img id="imagem-banner" src="../img/logo-cabecalho.webp" alt="" onclick="window.location.assign('../index.html')">
-            <a href="" class="btn btn-principal titulos">Reservar mesa</a>   
+        <div class="content-group"> <!-- Div que agrupa logo e botão-->
+            <img id="imagem-banner" src="../img/logo-cabecalho.webp" alt="logo santo taquito" onclick="window.location.assign('../index.html')">
+            <a href="reservas.html" class="btn btn-principal titulos">Reservar mesa</a>   
         </div>
     </header>
 
 
     <!-- Menu  -->
-    <div class="menu">
-        <nav>
+    <section class="menu">
+        <nav> <!-- <nav> indica semanticamente que aqui está a navegação principal -->
             <ul class="item-menu titulos">
                 <li><a class="menu-link" href="../index.html" >INÍCIO</a></li>
                 <li><a class="menu-link" href="cardapio.html">CARDÁPIO</a></li>
-                <li><a class="menu-link" href="">OPEN DRINKS</a></li>
-                <li><a class="menu-link" href="../html/unidades.html" aria-current="page">UNIDADES</a></li>
-                <li><a class="menu-link" href="">PROMOÇÕES</a></li>
-                <li><a class="menu-link" href="">RESERVAS</a></li>
-                <li><a class="menu-link" href="">SAC</a></li>
-                <li><a class="menu-link" href="">TRABALHE CONOSCO</a></li>
+                <li><a class="menu-link" href="open-drinks.html">OPEN DRINKS</a></li>
+                <li><a class="menu-link" href="unidades.html" aria-current="page">UNIDADES</a></li>  <!-- aria-current="page" avisa leitores de tela (e permite estilizar) que esta é a página que o usuario esta no momento -->
+                <li><a class="menu-link" href="promocoes.html">PROMOÇÕES</a></li>
+                <li><a class="menu-link" href="reservas.html">RESERVAS</a></li>
+                <li><a class="menu-link" href="sac.html">SAC</a></li>
+                <li><a class="menu-link" href="trabalhe-conosco.html">TRABALHE CONOSCO</a></li>
             </ul>
         </nav>
-    </div>
-    <div>
-        <img id="banner-unidades" src="../img/banner-unidades-com-texto.png" alt="">
-    </div>
-    <section>
-        <div class="content-unidades">
-            <div>
-                <img class="imagem-unidade" src="../img/unidade-tatuape.png" alt="">
-                <h1>UNIDADE</h1>
-                <h2>Tatuapé</h2>
-                <p><strong>Endereço:</strong> Rua Fictícia do Taco, 123 · Tatuapé</p>
-                <p><strong>Telefone:</strong> (11) 0000-0000</p>
-                <p><strong>Horário de funcionamento:</strong> Ter a dom - 12h ás 23h</p>
-                <a href="reservas.html" class="btn btn-unidades titulos">Reservar mesa</a>
-            </div>
-            <div>
-                <img class="imagem-unidade" src="../img/unidade-paulista.png" alt="">
-                <h1>UNIDADE</h1>
-                <h2>Paulista</h2>
-                <p><strong>Endereço:</strong>Av. Imaginária, 456 · Bela Vista</p>
-                <p><strong>Telefone:</strong> (11) 0000-0000</p>
-                <p><strong>Horário de funcionamento:</strong> Ter a dom - 12h ás 23h</p>
-                <a href="reservas.html" class="btn btn-principal titulos">Reservar mesa</a>
-            </div>
-            <div>
-                <img class="imagem-unidade" src="../img/unidade-pinheiros.png" alt="">
-                <h1>UNIDADE</h1>
-                <h2>Pinheiros</h2>
-                <p><strong>Endereço:</strong> Rua dos Anjos, 789 · Pinheiros
-</p>
-                <p><strong>Telefone:</strong> (11) 0000-0000</p>
-                <p><strong>Horário de funcionamento:</strong> Ter a dom - 12h ás 23h</p>
-                <a href="reservas.html" class="btn btn-unidades titulos">Reservar mesa</a>
-            </div>
+    </section>
+    <section>   <!-- Seção do banner principal da página -->
+        <div>
+            <img id="banner-unidades"  src="../img/banner-unidades-com-texto.png" alt="Banner com fundo de raios em tons de amarelo claro. O texto traz o subtítulo 'ONDE ESTAMOS', o título principal 'Unidades' e a seguinte descrição: 'Três casas em São Paulo, todas com o mesmo cardápio e open drinks.'. Inclui também a figura do mascote de taco e a marca 'Santo Taquito - COMIDA MEXICANA'"> 
         </div>
     </section>
+    
+    <main>
+        <section>
+            <h1 class="h1-uni"> ¡Bienvenidos a Santo Taquito House!</h1>
+            <div class="card-display-video">
+                <h2 class="h2-uni">UNIDADE PINHEIROS</h2>
+                <video class="video-uni" autoplay muted loop playsinline>
+                <source src="../assets/santo-taquito-pinheirosv2.webm" type="video/webm"> /* especificar recursos de midia */
+                </video><br>
+
+                <ul >
+                <li><h2> Venha conhecer a Santo Taquito House! Nossa sede localizada em Pinheiros, na grande São Paulo,uma região cheia de personalidade, boa gastronomia e cultura. Aqui, cada visita é uma oportunidade de trocar ideias e fortalecer parcerias.</h2></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h1 class="h1-uni">UNIDADES</h1>
+            <h2 class="h2-01"> Escolha a unidade Santo Taquito House mais perto de você e garanta seu lugar à mesa. Tacos fresquinhos, drinks gelados e aquele clima mexicano esperam por você, seja para um jantar a dois, um almoço com amigos ou a comemoração da turma toda. É só escolher a unidade, reservar e vir se divertir!</h2>
+            <div class="content-unidades container-tags">
+                <div class="card-img">
+                    <img src="../img/unidade-tatuape.png" alt="Unidade Tatuapé" width="200" height="200" class="tam-botao">
+                    <h2 class="h-uni">Tatuapé</h2>
+                    <p><strong>Endereço:</strong> Rua Fictícia,  123 · Tatuapé.</p>
+                    📍 <a  href="https://maps.app.goo.gl/rzzSgYXSND1QnAT89" target="_blank" style="color: #C0392B; text-decoration: underline;">Veja no Mapa.</a>
+                    <p><strong>Telefone:</strong> (11) 0000-0000</p>
+                    <p><strong>Horário de funcionamento:</strong></p> 
+                    <p><strong>Terça-feira a domingo:</strong> 12h ás 23h.</p>
+                    <a href="reservas.html" class="btn btn-unidades titulos">Reservar mesa</a>
+                </div>
+
+                <div class="card-img">
+                    <img src="../img/unidade-paulista.png" alt="Unidade Paulista" width="200" height="200" class="tam-botao">
+                    <h2 class="h-uni">Paulista</h2>
+                    <p><strong>Endereço: </strong>  Av. Imaginária, 456 · Bela Vista. </p>
+                    📍 <a  href="https://maps.app.goo.gl/zaRKBvpeiLowMKk56" target="_blank" style="color: #C0392B; text-decoration: underline;">Veja no Mapa.</a>
+                    <p><strong>Telefone:</strong> (11) 0000-0000</p>
+                    <p><strong>Horário de funcionamento:</strong></p>
+                    <p><strong>Terça-feira a domingo:</strong> 12h ás 23h.</p>
+                    <a href="reservas.html" class="btn btn-principal titulos">Reservar mesa</a>
+                </div>
+                
+                <div class="card-img">
+                    <img src="../img/unidade-pinheiros.png" alt="Unidade Pinheiros" width="200" height="200"  class="tam-botao">
+                    <h2 class="h-uni">Pinheiros</h2>
+                    <p><strong>Endereço:</strong> Rua dos Anjos, 789 · Pinheiros. </p>
+                    📍 <a  href="https://maps.app.goo.gl/tfPgumghm5g6ZEe48" target="_blank" style="color: #C0392B; text-decoration: underline;">Veja no Mapa.</a>
+                <!-- <strong> destaca em negrito o rótulo de cada informação -->
+                    <p><strong>Telefone:</strong> (11) 0000-0000</p>
+                    <p><strong>Horário de funcionamento:</strong></p>
+                    <p><strong>Terça-feira a domingo:</strong> 12h ás 23h.</p>
+                    <a href="reservas.html" class="btn btn-unidades titulos">Reservar mesa</a>
+                </div>
+            </div>
+        </section>
+</main>
     <!-- Rodapé  -->
     <footer>
         <div class="content-rodape">
             <div id="selo-rodape">
-                <img src="../img/logo-emblema.webp" alt="">
-                <p><i>Comida mexicana abençoada<br>desde 2026.</i></p>
+                <img src="../img/logo-emblema.webp" alt="logo santo taquito">
+                <p><i>Comida mexicana abençoada<br>desde 2026.</i></p>  <!-- <i> deixa o texto em itálico;-->
                 
             </div>
        
@@ -89,6 +115,8 @@
                 <li><a href="sac.html"><i>SAC</i></a></li>
                 <li><a href="unidades.html"><i>Unidades</i></a></li>
                 <li><a href="trabalhe-conosco.html"><i>Trabalhe Conosco</i></a></li>
+                <li><a href="orcamento.html"><i>Orçamentos</i></a></li>
+                <li><a href="contato.html"><i>Contato</i></a></li>
             </ul>
             <ul class="rodape-contato">
                 <li><strong>CONTATO</strong></li>
@@ -97,8 +125,9 @@
                 <li><i>Ter a dom - 12h ás 23h</i></li>
             </ul>
         </div>
-        <div class="copy-rodape">
+        <div class="copy-rodape">  <!-- Faixa inferior com o aviso de direitos autorais -->
            <p>
+            <!-- &copy; é a entidade HTML do símbolo © -->
                 <i>&copy; 2026 Santo Taquito · Restaurante fictício · Projeto acadêmico de Front-End (ADS – UNICID)</i> 
            </p>
         </div>
