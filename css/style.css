@@ -507,6 +507,56 @@ header::before {
 .duas_colunas summary {
     border: 2px solid var(--marrom-contorno);
 }
+ 
+    /* início João */
+
+.borda{
+    border-radius: 20px; /*raio de borda das imagens*/
+    box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
+}
+
+.margemc{
+    margin-top: 50px; /*espaçamento pra cima (externo)*/
+} 
+
+.margemb{
+    margin-bottom: 50px; /*espaçamento pra baixo (externo)*/
+}
+
+.img{
+    display: flex; /*deixa as imagens uma do lados da outra*/
+    gap: 200px; /*distância entre as imagens*/
+    justify-content: space-between; /*deixa as imagens no começo, meio e fim*/
+}
+
+.card1{
+    border:#7A3E12 solid 2px; /*deixa a borda sólida*/
+    border-radius: 24px; /*deixa a borda arredondada*/
+    box-shadow:#7A3E12 3px 4px 0 0; /*sombra da borda*/
+    padding: 30px; /*espaçamento (interno)*/
+    padding-inline: 20px; /*espaçamento nas laterais (interno)*/
+    background-color:#FFFFFF; /*cor de fundo*/
+    min-height: 460px; /*define a altura mínima do card.*/
+   
+}
+.card2{
+    border:#9E2E22 2px; /*deixa a borda sólida*/
+    border-radius: 24px; /*deixa a borda arredondada*/
+    box-shadow:#9E2E22 5px 6px 0 0; /*sombra da borda*/
+    padding: 2px; /*espaçamento (interno)*/
+    background-color: #C0392B; /*cor do fundo*/
+    width: 200px; /*tamanho do item*/
+    color:#FFF4D6;
+    margin: auto; /*espaçamento para centralizar (externo)*/
+    margin-bottom: 20px; /*espaçamento pra baixo (externo)*/
+}
+
+.banner{
+    margin-top: 5px;  /*espaçamento pra cima (externo)*/
+    padding-left: 5px; /*espaçamento para a esquerda (interno)*/
+}   
+    /* Fim João */
+
 
 
 /* Ryan - Cardápio */
