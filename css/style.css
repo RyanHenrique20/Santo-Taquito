@@ -764,6 +764,8 @@ summary {
     /*espaçamento para centralizar (externo)*/
     margin-bottom: 20px;
     /*espaçamento pra baixo (externo)*/
+    text-align: center;
+    /*centraliza texto para o centro */
 }
 
 .borda-promocao {
